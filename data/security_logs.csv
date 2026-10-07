@@ -1,0 +1,1001 @@
+timestamp,source_ip,destination_ip,user,host,event_type,message,asset_criticality,failed_attempts,login_frequency,bytes_sent,bytes_received,request_rate,unique_ports,authentication_failures,destination_count,ground_truth
+2026-09-01T00:00:00+00:00,10.20.0.10,198.51.100.1,analyst_00,endpoint-000,Insider Threat,Employee bulk export outside approved work schedule,high,0,7,133819807,268397,415,6,1,3,anomaly
+2026-09-01T00:05:00+00:00,10.20.1.11,10.40.1.11,analyst_01,endpoint-001,Phishing,Suspicious email followed by anomalous sign-in activity,medium,0,77,324240,573912,88,6,63,1,anomaly
+2026-09-01T00:10:00+00:00,10.20.2.12,10.40.2.12,analyst_02,endpoint-002,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,83,299422,3793089,629,4,2,7,anomaly
+2026-09-01T00:15:00+00:00,10.20.3.13,10.40.3.13,analyst_03,endpoint-003,Ransomware,File encryption burst and ransom note indicator,medium,2,11,32757966,590416,743,4,0,4,anomaly
+2026-09-01T00:20:00+00:00,10.20.4.14,198.51.100.5,analyst_04,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,209513,1496792,84,7,0,3,normal
+2026-09-01T00:25:00+00:00,10.20.5.15,10.40.5.15,analyst_05,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,1,136191,444697,27,4,0,1,normal
+2026-09-01T00:30:00+00:00,10.20.6.16,10.40.6.16,analyst_06,endpoint-006,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,71,234644,1594327,446,5,0,8,anomaly
+2026-09-01T00:35:00+00:00,10.20.7.17,10.40.7.17,analyst_07,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,240821,1271975,40,7,0,1,normal
+2026-09-01T00:40:00+00:00,10.20.8.18,198.51.100.9,analyst_08,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,95026,1258884,51,6,1,2,normal
+2026-09-01T00:45:00+00:00,10.20.9.19,10.40.1.19,analyst_09,endpoint-009,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,0,4,98915,19135227,815,2,0,2,anomaly
+2026-09-01T00:50:00+00:00,10.20.10.20,10.40.2.20,analyst_10,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,0,1,317644,837250,56,1,0,1,normal
+2026-09-01T00:55:00+00:00,10.20.11.21,10.40.3.21,analyst_11,endpoint-011,Insider Threat,Employee bulk export outside approved work schedule,medium,0,11,114152723,1362123,369,1,1,1,anomaly
+2026-09-01T01:00:00+00:00,10.20.0.22,198.51.100.13,analyst_12,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,424430,2593286,43,2,2,2,normal
+2026-09-01T01:05:00+00:00,10.20.1.23,10.40.5.23,analyst_13,endpoint-013,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,0,122,830060,2572424,11,3,1,23,anomaly
+2026-09-01T01:10:00+00:00,10.20.2.24,10.40.6.24,analyst_14,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,355479,1304081,74,1,0,6,normal
+2026-09-01T01:15:00+00:00,10.20.3.25,10.40.7.25,analyst_15,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,0,4,173908,350846,76,5,1,1,normal
+2026-09-01T01:20:00+00:00,10.20.4.26,198.51.100.17,analyst_16,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,274217,396029,10,2,2,8,normal
+2026-09-01T01:25:00+00:00,10.20.5.27,10.40.1.27,analyst_17,endpoint-017,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,1,281890,829632,40,4,1,6,normal
+2026-09-01T01:30:00+00:00,10.20.6.28,10.40.2.28,analyst_18,endpoint-018,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,307047,252367,21,1,1,7,normal
+2026-09-01T01:35:00+00:00,10.20.7.29,10.40.3.29,analyst_19,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,146235,398552,49,3,2,3,normal
+2026-09-01T01:40:00+00:00,10.20.8.30,198.51.100.21,analyst_20,endpoint-020,RDP Login,RDP login from new source with unusual target fan-out,high,1,54,276603,706900,7,6,46,31,anomaly
+2026-09-01T01:45:00+00:00,10.20.9.31,10.40.5.31,analyst_21,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,286050,384373,63,2,0,2,normal
+2026-09-01T01:50:00+00:00,10.20.10.32,10.40.6.32,analyst_22,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,79450,821528,44,5,1,4,normal
+2026-09-01T01:55:00+00:00,10.20.11.33,10.40.7.33,analyst_23,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,5,193322,494162,13,7,0,7,normal
+2026-09-01T02:00:00+00:00,10.20.0.34,198.51.100.25,analyst_24,endpoint-024,Brute Force,Repeated authentication failures followed by a success,medium,127,111,198478,2780911,68,7,88,4,anomaly
+2026-09-01T02:05:00+00:00,10.20.1.35,10.40.1.35,analyst_25,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,1,7,434260,637180,47,4,0,3,normal
+2026-09-01T02:10:00+00:00,10.20.2.36,10.40.2.36,analyst_26,endpoint-026,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,5,244847,1003273,31,5,7,1,normal
+2026-09-01T02:15:00+00:00,10.20.3.37,10.40.3.37,analyst_27,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,234439,851357,13,3,0,3,normal
+2026-09-01T02:20:00+00:00,10.20.4.38,198.51.100.29,analyst_28,endpoint-028,Data Exfiltration,Large outbound transfer to external destination,medium,0,6,1024511479,782084,49,1,2,27,anomaly
+2026-09-01T02:25:00+00:00,10.20.5.39,10.40.5.39,analyst_29,endpoint-029,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,212653,753720,26,3,4,8,normal
+2026-09-01T02:30:00+00:00,10.20.6.40,10.40.6.40,analyst_30,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,187436,158561,30,6,1,7,normal
+2026-09-01T02:35:00+00:00,10.20.7.41,10.40.7.41,analyst_31,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,201380,1594499,26,3,1,5,normal
+2026-09-01T02:40:00+00:00,10.20.8.42,198.51.100.33,analyst_32,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,258210,732458,39,1,1,2,normal
+2026-09-01T02:45:00+00:00,10.20.9.43,10.40.1.43,analyst_33,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,127293,494527,27,5,1,4,normal
+2026-09-01T02:50:00+00:00,10.20.10.44,10.40.2.44,analyst_34,endpoint-034,RDP Login,RDP login from new source with unusual target fan-out,medium,2,51,333583,1955641,33,3,22,33,anomaly
+2026-09-01T02:55:00+00:00,10.20.11.45,10.40.3.45,analyst_35,endpoint-035,Ransomware,File encryption burst and ransom note indicator,high,1,10,34388714,721929,509,4,0,3,anomaly
+2026-09-01T03:00:00+00:00,10.20.0.46,198.51.100.37,analyst_36,endpoint-036,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,652415,985843,36,4,0,2,normal
+2026-09-01T03:05:00+00:00,10.20.1.47,10.40.5.47,analyst_37,endpoint-037,Insider Threat,Employee bulk export outside approved work schedule,medium,0,3,104027074,924997,458,3,1,8,anomaly
+2026-09-01T03:10:00+00:00,10.20.2.48,10.40.6.48,analyst_38,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,41841,1033928,74,6,1,7,normal
+2026-09-01T03:15:00+00:00,10.20.3.49,10.40.7.49,analyst_39,endpoint-039,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,158377,1964702,9,6,2,7,normal
+2026-09-01T03:20:00+00:00,10.20.4.50,198.51.100.41,analyst_00,endpoint-040,Normal Login,Authorized interactive login and ordinary service traffic,high,1,3,227331,787684,51,7,0,8,normal
+2026-09-01T03:25:00+00:00,10.20.5.51,10.40.1.51,analyst_01,endpoint-041,XSS,WAF script tag and XSS pattern in request,medium,0,1,247896,17067259,814,5,0,2,anomaly
+2026-09-01T03:30:00+00:00,10.20.6.52,10.40.2.52,analyst_02,endpoint-042,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,4,189585,320953,11,4,3,5,normal
+2026-09-01T03:35:00+00:00,10.20.7.53,10.40.3.53,analyst_03,endpoint-043,XSS,WAF script tag and XSS pattern in request,medium,2,11,296150,21265498,562,6,0,6,anomaly
+2026-09-01T03:40:00+00:00,10.20.8.54,198.51.100.45,analyst_04,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,227330,1013852,67,2,2,6,normal
+2026-09-01T03:45:00+00:00,10.20.9.55,10.40.5.55,analyst_05,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,1,8,355168,807699,39,6,1,1,normal
+2026-09-01T03:50:00+00:00,10.20.10.56,10.40.6.56,analyst_06,endpoint-046,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,10,576876,582168,32,7,7,7,normal
+2026-09-01T03:55:00+00:00,10.20.11.57,10.40.7.57,analyst_07,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,206011,647619,28,2,2,8,normal
+2026-09-01T04:00:00+00:00,10.20.0.58,198.51.100.49,analyst_08,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,6,248112,803705,10,3,1,4,normal
+2026-09-01T04:05:00+00:00,10.20.1.59,10.40.1.59,analyst_09,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,176883,805400,86,5,0,2,normal
+2026-09-01T04:10:00+00:00,10.20.2.60,10.40.2.60,analyst_10,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,1,11,435537,1269416,42,5,0,7,normal
+2026-09-01T04:15:00+00:00,10.20.3.61,10.40.3.61,analyst_11,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,4,3,214820,865680,13,4,1,5,normal
+2026-09-01T04:20:00+00:00,10.20.4.62,198.51.100.53,analyst_12,endpoint-052,Insider Threat,Employee bulk export outside approved work schedule,medium,0,8,128963360,1076335,387,3,0,6,anomaly
+2026-09-01T04:25:00+00:00,10.20.5.63,10.40.5.63,analyst_13,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,234180,401605,43,6,1,6,normal
+2026-09-01T04:30:00+00:00,10.20.6.64,10.40.6.64,analyst_14,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,211593,286268,29,2,0,1,normal
+2026-09-01T04:35:00+00:00,10.20.7.65,10.40.7.65,analyst_15,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,3,5,221737,1067880,26,2,2,6,normal
+2026-09-01T04:40:00+00:00,10.20.8.66,198.51.100.57,analyst_16,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,205660,547184,25,4,1,1,normal
+2026-09-01T04:45:00+00:00,10.20.9.67,10.40.1.67,analyst_17,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,626253,1111767,15,7,0,3,normal
+2026-09-01T04:50:00+00:00,10.20.10.68,10.40.2.68,analyst_18,endpoint-058,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,0,82,347669,1130057,69,3,3,27,anomaly
+2026-09-01T04:55:00+00:00,10.20.11.69,10.40.3.69,analyst_19,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,210183,861405,53,7,0,3,normal
+2026-09-01T05:00:00+00:00,10.20.0.70,198.51.100.61,analyst_20,endpoint-060,Failed Login,Occasional incorrect password; subsequent normal activity,high,6,2,134164,1080253,24,1,6,7,normal
+2026-09-01T05:05:00+00:00,10.20.1.71,10.40.5.71,analyst_21,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,702783,756161,60,1,2,2,normal
+2026-09-01T05:10:00+00:00,10.20.2.72,10.40.6.72,analyst_22,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,526005,839119,38,3,1,7,normal
+2026-09-01T05:15:00+00:00,10.20.3.73,10.40.7.73,analyst_23,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,73062,566333,36,5,0,7,normal
+2026-09-01T05:20:00+00:00,10.20.4.74,198.51.100.65,analyst_24,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,447497,1574781,19,1,1,4,normal
+2026-09-01T05:25:00+00:00,10.20.5.75,10.40.1.75,analyst_25,endpoint-065,Failed Login,Occasional incorrect password; subsequent normal activity,high,5,11,242996,2099941,38,7,5,7,normal
+2026-09-01T05:30:00+00:00,10.20.6.76,10.40.2.76,analyst_26,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,98282,424916,68,4,2,5,normal
+2026-09-01T05:35:00+00:00,10.20.7.77,10.40.3.77,analyst_27,endpoint-067,Data Exfiltration,Large outbound transfer to external destination,medium,1,1,561301275,421424,26,6,2,18,anomaly
+2026-09-01T05:40:00+00:00,10.20.8.78,198.51.100.69,analyst_28,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,405473,479194,76,1,0,1,normal
+2026-09-01T05:45:00+00:00,10.20.9.79,10.40.5.79,analyst_29,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,3,223107,2181790,75,4,1,3,normal
+2026-09-01T05:50:00+00:00,10.20.10.80,10.40.6.80,analyst_30,endpoint-000,Normal Login,Authorized interactive login and ordinary service traffic,high,1,3,139257,2116336,80,1,0,1,normal
+2026-09-01T05:55:00+00:00,10.20.11.81,10.40.7.81,analyst_31,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,228333,528148,20,3,0,2,normal
+2026-09-01T06:00:00+00:00,10.20.0.82,198.51.100.73,analyst_32,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,290252,1434595,40,2,2,7,normal
+2026-09-01T06:05:00+00:00,10.20.1.83,10.40.1.83,analyst_33,endpoint-003,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,0,2,62952,18294735,848,6,2,2,anomaly
+2026-09-01T06:10:00+00:00,10.20.2.84,10.40.2.84,analyst_34,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,375956,554143,12,5,1,7,normal
+2026-09-01T06:15:00+00:00,10.20.3.85,10.40.3.85,analyst_35,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,255736,997050,72,5,0,6,normal
+2026-09-01T06:20:00+00:00,10.20.4.86,198.51.100.77,analyst_36,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,616077,1848781,7,5,0,6,normal
+2026-09-01T06:25:00+00:00,10.20.5.87,10.40.5.87,analyst_37,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,252910,616678,73,7,0,7,normal
+2026-09-01T06:30:00+00:00,10.20.6.88,10.40.6.88,analyst_38,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,603243,480223,29,5,1,8,normal
+2026-09-01T06:35:00+00:00,10.20.7.89,10.40.7.89,analyst_39,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,689546,589216,47,6,0,7,normal
+2026-09-01T06:40:00+00:00,10.20.8.90,198.51.100.81,analyst_00,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,1,3,226545,468158,87,7,1,8,normal
+2026-09-01T06:45:00+00:00,10.20.9.91,10.40.1.91,analyst_01,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,303710,537486,88,1,0,8,normal
+2026-09-01T06:50:00+00:00,10.20.10.92,10.40.2.92,analyst_02,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,496913,196634,25,4,1,5,normal
+2026-09-01T06:55:00+00:00,10.20.11.93,10.40.3.93,analyst_03,endpoint-013,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,9,239440,2964684,77,4,2,6,normal
+2026-09-01T07:00:00+00:00,10.20.0.94,198.51.100.85,analyst_04,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,403241,289481,50,6,0,7,normal
+2026-09-01T07:05:00+00:00,10.20.1.95,10.40.5.95,analyst_05,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,1,7,52696,1201733,36,4,2,4,normal
+2026-09-01T07:10:00+00:00,10.20.2.96,10.40.6.96,analyst_06,endpoint-016,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,99,197103,374369,371,7,1,7,anomaly
+2026-09-01T07:15:00+00:00,10.20.3.97,10.40.7.97,analyst_07,endpoint-017,Brute Force,Repeated authentication failures followed by a success,medium,150,158,99604,1747625,49,5,59,2,anomaly
+2026-09-01T07:20:00+00:00,10.20.4.98,198.51.100.89,analyst_08,endpoint-018,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,289456,286993,43,1,0,4,normal
+2026-09-01T07:25:00+00:00,10.20.5.99,10.40.1.99,analyst_09,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,410826,960838,24,6,1,5,normal
+2026-09-01T07:30:00+00:00,10.20.6.100,10.40.2.100,analyst_10,endpoint-020,Phishing,Suspicious email followed by anomalous sign-in activity,high,2,102,313852,1072329,22,4,49,2,anomaly
+2026-09-01T07:35:00+00:00,10.20.7.101,10.40.3.101,analyst_11,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,340225,348110,82,1,0,1,normal
+2026-09-01T07:40:00+00:00,10.20.8.102,198.51.100.93,analyst_12,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,193740,579766,79,4,0,7,normal
+2026-09-01T07:45:00+00:00,10.20.9.103,10.40.5.103,analyst_13,endpoint-023,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,0,136,85825,1411692,72,2,0,25,anomaly
+2026-09-01T07:50:00+00:00,10.20.10.104,10.40.6.104,analyst_14,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,2,399301,1048798,35,7,0,8,normal
+2026-09-01T07:55:00+00:00,10.20.11.105,10.40.7.105,analyst_15,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,0,9,270048,974130,23,7,1,4,normal
+2026-09-01T08:00:00+00:00,10.20.0.106,198.51.100.97,analyst_16,endpoint-026,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,84858,857022,14,1,0,5,normal
+2026-09-01T08:05:00+00:00,10.20.1.107,10.40.1.107,analyst_17,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,162243,2106010,12,1,0,7,normal
+2026-09-01T08:10:00+00:00,10.20.2.108,10.40.2.108,analyst_18,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,217618,1171862,79,7,0,5,normal
+2026-09-01T08:15:00+00:00,10.20.3.109,10.40.3.109,analyst_19,endpoint-029,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,1,180774,552703,17,4,3,7,normal
+2026-09-01T08:20:00+00:00,10.20.4.110,198.51.100.101,analyst_20,endpoint-030,Malware,Unsigned executable with unusual outbound connections,high,1,8,24250502,1961342,309,1,0,35,anomaly
+2026-09-01T08:25:00+00:00,10.20.5.111,10.40.5.111,analyst_21,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,213131,703542,40,2,0,2,normal
+2026-09-01T08:30:00+00:00,10.20.6.112,10.40.6.112,analyst_22,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,421970,1233700,81,2,1,7,normal
+2026-09-01T08:35:00+00:00,10.20.7.113,10.40.7.113,analyst_23,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,279894,763568,84,4,2,8,normal
+2026-09-01T08:40:00+00:00,10.20.8.114,198.51.100.105,analyst_24,endpoint-034,XSS,WAF script tag and XSS pattern in request,medium,0,5,105407,8242524,841,5,0,5,anomaly
+2026-09-01T08:45:00+00:00,10.20.9.115,10.40.1.115,analyst_25,endpoint-035,Failed Login,Occasional incorrect password; subsequent normal activity,high,5,6,199720,1122909,66,5,5,4,normal
+2026-09-01T08:50:00+00:00,10.20.10.116,10.40.2.116,analyst_26,endpoint-036,Brute Force,Repeated authentication failures followed by a success,medium,123,128,300857,1507441,34,7,128,8,anomaly
+2026-09-01T08:55:00+00:00,10.20.11.117,10.40.3.117,analyst_27,endpoint-037,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,112214,332978,50,2,1,4,normal
+2026-09-01T09:00:00+00:00,10.20.0.118,198.51.100.109,analyst_28,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,216542,725183,52,1,1,3,normal
+2026-09-01T09:05:00+00:00,10.20.1.119,10.40.5.119,analyst_29,endpoint-039,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,340437,868462,66,6,1,7,normal
+2026-09-01T09:10:00+00:00,10.20.2.120,10.40.6.120,analyst_30,endpoint-040,Credential Access,LSASS access credential dump alert with unusual process lineage,high,0,101,295676,905444,26,3,0,44,anomaly
+2026-09-01T09:15:00+00:00,10.20.3.121,10.40.7.121,analyst_31,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,125192,994323,54,6,1,4,normal
+2026-09-01T09:20:00+00:00,10.20.4.122,198.51.100.113,analyst_32,endpoint-042,Ransomware,File encryption burst and ransom note indicator,medium,0,10,56395692,999178,558,4,0,6,anomaly
+2026-09-01T09:25:00+00:00,10.20.5.123,10.40.1.123,analyst_33,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,262868,842512,6,4,0,7,normal
+2026-09-01T09:30:00+00:00,10.20.6.124,10.40.2.124,analyst_34,endpoint-044,Port Scan,Connection attempts across many ports and destinations,medium,0,5,275453,506525,1308,636,3,158,anomaly
+2026-09-01T09:35:00+00:00,10.20.7.125,10.40.3.125,analyst_35,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,1,9,219205,201279,11,4,0,4,normal
+2026-09-01T09:40:00+00:00,10.20.8.126,198.51.100.117,analyst_36,endpoint-046,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,810375,432082,76,2,4,7,normal
+2026-09-01T09:45:00+00:00,10.20.9.127,10.40.5.127,analyst_37,endpoint-047,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,9,550350,691191,27,4,3,3,normal
+2026-09-01T09:50:00+00:00,10.20.10.128,10.40.6.128,analyst_38,endpoint-048,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,0,2,17897678,552319,893,3,2,44,anomaly
+2026-09-01T09:55:00+00:00,10.20.11.129,10.40.7.129,analyst_39,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,264066,474124,82,7,0,7,normal
+2026-09-01T10:00:00+00:00,10.20.0.130,198.51.100.121,analyst_00,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,0,4,267596,1295380,86,7,0,4,normal
+2026-09-01T10:05:00+00:00,10.20.1.131,10.40.1.131,analyst_01,endpoint-051,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,9,113841,821695,75,5,3,5,normal
+2026-09-01T10:10:00+00:00,10.20.2.132,10.40.2.132,analyst_02,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,337770,510428,16,3,1,2,normal
+2026-09-01T10:15:00+00:00,10.20.3.133,10.40.3.133,analyst_03,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,184736,327358,67,7,1,2,normal
+2026-09-01T10:20:00+00:00,10.20.4.134,198.51.100.125,analyst_04,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,294345,941369,11,2,2,4,normal
+2026-09-01T10:25:00+00:00,10.20.5.135,10.40.5.135,analyst_05,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,0,6,201307,1948905,25,3,3,5,normal
+2026-09-01T10:30:00+00:00,10.20.6.136,10.40.6.136,analyst_06,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,254526,518789,48,3,0,4,normal
+2026-09-01T10:35:00+00:00,10.20.7.137,10.40.7.137,analyst_07,endpoint-057,Port Scan,Connection attempts across many ports and destinations,medium,0,10,153873,1173277,1250,652,1,129,anomaly
+2026-09-01T10:40:00+00:00,10.20.8.138,198.51.100.129,analyst_08,endpoint-058,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,6,463566,364791,9,1,2,5,normal
+2026-09-01T10:45:00+00:00,10.20.9.139,10.40.1.139,analyst_09,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,9,244011,706120,88,6,2,4,normal
+2026-09-01T10:50:00+00:00,10.20.10.140,10.40.2.140,analyst_10,endpoint-060,Privilege Escalation,Unexpected admin privilege change with new privileged session,high,0,105,250715,746044,634,5,0,7,anomaly
+2026-09-01T10:55:00+00:00,10.20.11.141,10.40.3.141,analyst_11,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,334963,627400,26,4,0,3,normal
+2026-09-01T11:00:00+00:00,10.20.0.142,198.51.100.133,analyst_12,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,4,9,228297,2594454,11,7,0,5,normal
+2026-09-01T11:05:00+00:00,10.20.1.143,10.40.5.143,analyst_13,endpoint-063,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,1,120,159658,760659,56,7,1,26,anomaly
+2026-09-01T11:10:00+00:00,10.20.2.144,10.40.6.144,analyst_14,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,157061,671728,43,2,1,5,normal
+2026-09-01T11:15:00+00:00,10.20.3.145,10.40.7.145,analyst_15,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,0,6,356513,568123,68,1,0,4,normal
+2026-09-01T11:20:00+00:00,10.20.4.146,198.51.100.137,analyst_16,endpoint-066,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,0,100,94512,328316,23,6,1,32,anomaly
+2026-09-01T11:25:00+00:00,10.20.5.147,10.40.1.147,analyst_17,endpoint-067,Data Exfiltration,Large outbound transfer to external destination,medium,0,9,861354856,920214,33,7,2,17,anomaly
+2026-09-01T11:30:00+00:00,10.20.6.148,10.40.2.148,analyst_18,endpoint-068,Phishing,Suspicious email followed by anomalous sign-in activity,medium,0,94,283760,1569392,6,7,30,8,anomaly
+2026-09-01T11:35:00+00:00,10.20.7.149,10.40.3.149,analyst_19,endpoint-069,Data Exfiltration,Large outbound transfer to external destination,medium,3,2,332000214,337746,16,1,0,16,anomaly
+2026-09-01T11:40:00+00:00,10.20.8.150,198.51.100.141,analyst_20,endpoint-000,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,257445,437422,67,5,2,3,normal
+2026-09-01T11:45:00+00:00,10.20.9.151,10.40.5.151,analyst_21,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,102212,576233,64,3,1,4,normal
+2026-09-01T11:50:00+00:00,10.20.10.152,10.40.6.152,analyst_22,endpoint-002,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,9,192301,2106010,72,6,6,8,normal
+2026-09-01T11:55:00+00:00,10.20.11.153,10.40.7.153,analyst_23,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,180764,1440291,70,4,1,6,normal
+2026-09-01T12:00:00+00:00,10.20.0.154,198.51.100.145,analyst_24,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,677365,3519990,52,2,0,5,normal
+2026-09-01T12:05:00+00:00,10.20.1.155,10.40.1.155,analyst_25,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,1,7,128760,406879,63,1,0,4,normal
+2026-09-01T12:10:00+00:00,10.20.2.156,10.40.2.156,analyst_26,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,1310266,601150,42,1,1,7,normal
+2026-09-01T12:15:00+00:00,10.20.3.157,10.40.3.157,analyst_27,endpoint-007,RDP Login,RDP login from new source with unusual target fan-out,medium,2,75,123889,2085524,49,1,30,33,anomaly
+2026-09-01T12:20:00+00:00,10.20.4.158,198.51.100.149,analyst_28,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,472362,286413,55,2,0,2,normal
+2026-09-01T12:25:00+00:00,10.20.5.159,10.40.5.159,analyst_29,endpoint-009,Failed Login,Occasional incorrect password; subsequent normal activity,medium,5,2,286159,662981,50,6,5,2,normal
+2026-09-01T12:30:00+00:00,10.20.6.160,10.40.6.160,analyst_30,endpoint-010,Command Injection,Application shell metacharacter warning and unexpected child process,high,0,2,28991076,785590,494,2,1,3,anomaly
+2026-09-01T12:35:00+00:00,10.20.7.161,10.40.7.161,analyst_31,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,242719,827199,81,4,1,7,normal
+2026-09-01T12:40:00+00:00,10.20.8.162,198.51.100.153,analyst_32,endpoint-012,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,4,268903,596967,26,6,6,8,normal
+2026-09-01T12:45:00+00:00,10.20.9.163,10.40.1.163,analyst_33,endpoint-013,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,1,10,39539875,455081,262,3,0,2,anomaly
+2026-09-01T12:50:00+00:00,10.20.10.164,10.40.2.164,analyst_34,endpoint-014,Data Exfiltration,Large outbound transfer to external destination,medium,2,11,719571475,1055474,11,4,1,31,anomaly
+2026-09-01T12:55:00+00:00,10.20.11.165,10.40.3.165,analyst_35,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,0,9,170690,811906,41,2,1,1,normal
+2026-09-01T13:00:00+00:00,10.20.0.166,198.51.100.157,analyst_36,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,192773,1239099,14,2,1,6,normal
+2026-09-01T13:05:00+00:00,10.20.1.167,10.40.5.167,analyst_37,endpoint-017,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,160306,722430,6,6,0,5,normal
+2026-09-01T13:10:00+00:00,10.20.2.168,10.40.6.168,analyst_38,endpoint-018,Port Scan,Connection attempts across many ports and destinations,medium,0,7,126656,2019041,1303,223,1,127,anomaly
+2026-09-01T13:15:00+00:00,10.20.3.169,10.40.7.169,analyst_39,endpoint-019,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,1,10,173323,19021891,810,2,2,5,anomaly
+2026-09-01T13:20:00+00:00,10.20.4.170,198.51.100.161,analyst_00,endpoint-020,Port Scan,Connection attempts across many ports and destinations,high,0,9,375086,2031670,943,308,0,107,anomaly
+2026-09-01T13:25:00+00:00,10.20.5.171,10.40.1.171,analyst_01,endpoint-021,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,8,95156,1147226,8,1,3,6,normal
+2026-09-01T13:30:00+00:00,10.20.6.172,10.40.2.172,analyst_02,endpoint-022,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,0,106,95739,1082151,24,1,2,47,anomaly
+2026-09-01T13:35:00+00:00,10.20.7.173,10.40.3.173,analyst_03,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,120988,823270,83,7,4,7,normal
+2026-09-01T13:40:00+00:00,10.20.8.174,198.51.100.165,analyst_04,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,167773,1569827,57,4,1,2,normal
+2026-09-01T13:45:00+00:00,10.20.9.175,10.40.5.175,analyst_05,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,2,8,118724,551818,48,1,0,6,normal
+2026-09-01T13:50:00+00:00,10.20.10.176,10.40.6.176,analyst_06,endpoint-026,Port Scan,Connection attempts across many ports and destinations,medium,0,5,190583,459975,1056,669,0,161,anomaly
+2026-09-01T13:55:00+00:00,10.20.11.177,10.40.7.177,analyst_07,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,150095,352039,15,2,2,4,normal
+2026-09-01T14:00:00+00:00,10.20.0.178,198.51.100.169,analyst_08,endpoint-028,Failed Login,Occasional incorrect password; subsequent normal activity,medium,4,1,143957,2959781,69,6,4,5,normal
+2026-09-01T14:05:00+00:00,10.20.1.179,10.40.1.179,analyst_09,endpoint-029,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,418669,368887,76,2,0,6,normal
+2026-09-01T14:10:00+00:00,10.20.2.180,10.40.2.180,analyst_10,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,1,4,210727,500142,17,1,0,1,normal
+2026-09-01T14:15:00+00:00,10.20.3.181,10.40.3.181,analyst_11,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,391572,691561,42,2,0,3,normal
+2026-09-01T14:20:00+00:00,10.20.4.182,198.51.100.173,analyst_12,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,77971,928408,60,4,1,2,normal
+2026-09-01T14:25:00+00:00,10.20.5.183,10.40.5.183,analyst_13,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,151511,667691,50,5,0,5,normal
+2026-09-01T14:30:00+00:00,10.20.6.184,10.40.6.184,analyst_14,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,306948,1149066,13,3,2,1,normal
+2026-09-01T14:35:00+00:00,10.20.7.185,10.40.7.185,analyst_15,endpoint-035,Privilege Escalation,Unexpected admin privilege change with new privileged session,high,1,105,916659,600928,384,3,1,4,anomaly
+2026-09-01T14:40:00+00:00,10.20.8.186,198.51.100.177,analyst_16,endpoint-036,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,495474,1210675,43,1,2,4,normal
+2026-09-01T14:45:00+00:00,10.20.9.187,10.40.1.187,analyst_17,endpoint-037,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,267153,791548,85,1,0,1,normal
+2026-09-01T14:50:00+00:00,10.20.10.188,10.40.2.188,analyst_18,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,262487,770373,87,6,0,7,normal
+2026-09-01T14:55:00+00:00,10.20.11.189,10.40.3.189,analyst_19,endpoint-039,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,0,5,20549022,590807,1477,7,0,25,anomaly
+2026-09-01T15:00:00+00:00,10.20.0.190,198.51.100.181,analyst_20,endpoint-040,Normal Login,Authorized interactive login and ordinary service traffic,high,0,1,377793,596800,44,2,1,5,normal
+2026-09-01T15:05:00+00:00,10.20.1.191,10.40.5.191,analyst_21,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,766712,490786,60,3,2,1,normal
+2026-09-01T15:10:00+00:00,10.20.2.192,10.40.6.192,analyst_22,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,384662,363648,52,1,0,6,normal
+2026-09-01T15:15:00+00:00,10.20.3.193,10.40.7.193,analyst_23,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,344505,585160,24,5,3,5,normal
+2026-09-01T15:20:00+00:00,10.20.4.194,198.51.100.185,analyst_24,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,201710,720451,43,5,0,1,normal
+2026-09-01T15:25:00+00:00,10.20.5.195,10.40.1.195,analyst_25,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,197739,323031,69,2,0,7,normal
+2026-09-01T15:30:00+00:00,10.20.6.196,10.40.2.196,analyst_26,endpoint-046,Command Injection,Application shell metacharacter warning and unexpected child process,medium,0,1,18174172,788266,513,3,0,3,anomaly
+2026-09-01T15:35:00+00:00,10.20.7.197,10.40.3.197,analyst_27,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,121515,893580,55,7,2,8,normal
+2026-09-01T15:40:00+00:00,10.20.8.198,198.51.100.189,analyst_28,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,262793,1372571,15,6,1,1,normal
+2026-09-01T15:45:00+00:00,10.20.9.199,10.40.5.199,analyst_29,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,612984,952483,8,1,1,6,normal
+2026-09-01T15:50:00+00:00,10.20.10.200,10.40.6.200,analyst_30,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,1,9,129524,479836,68,2,0,7,normal
+2026-09-01T15:55:00+00:00,10.20.11.201,10.40.7.201,analyst_31,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,273524,1108035,77,3,1,7,normal
+2026-09-01T16:00:00+00:00,10.20.0.202,198.51.100.193,analyst_32,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,338773,829634,9,3,0,3,normal
+2026-09-01T16:05:00+00:00,10.20.1.203,10.40.1.203,analyst_33,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,912474,573519,51,3,1,6,normal
+2026-09-01T16:10:00+00:00,10.20.2.204,10.40.2.204,analyst_34,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,11,281914,1397363,24,6,1,2,normal
+2026-09-01T16:15:00+00:00,10.20.3.205,10.40.3.205,analyst_35,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,307596,505011,27,1,2,5,normal
+2026-09-01T16:20:00+00:00,10.20.4.206,198.51.100.197,analyst_36,endpoint-056,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,0,6,376583,11532791,511,7,1,3,anomaly
+2026-09-01T16:25:00+00:00,10.20.5.207,10.40.5.207,analyst_37,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,177562,436450,66,7,1,3,normal
+2026-09-01T16:30:00+00:00,10.20.6.208,10.40.6.208,analyst_38,endpoint-058,XSS,WAF script tag and XSS pattern in request,medium,1,6,1312690,17559283,559,7,0,3,anomaly
+2026-09-01T16:35:00+00:00,10.20.7.209,10.40.7.209,analyst_39,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,117012,1002269,78,2,1,5,normal
+2026-09-01T16:40:00+00:00,10.20.8.210,198.51.100.1,analyst_00,endpoint-060,Ransomware,File encryption burst and ransom note indicator,high,1,1,57548067,240237,594,7,2,7,anomaly
+2026-09-01T16:45:00+00:00,10.20.9.211,10.40.1.211,analyst_01,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,375366,440119,44,3,0,6,normal
+2026-09-01T16:50:00+00:00,10.20.10.212,10.40.2.212,analyst_02,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,217905,813537,33,3,0,6,normal
+2026-09-01T16:55:00+00:00,10.20.11.213,10.40.3.213,analyst_03,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,349016,1627501,30,4,2,6,normal
+2026-09-01T17:00:00+00:00,10.20.0.214,198.51.100.5,analyst_04,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,5,705733,459011,7,1,1,1,normal
+2026-09-01T17:05:00+00:00,10.20.1.215,10.40.5.215,analyst_05,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,1,8,153121,852472,55,6,1,1,normal
+2026-09-01T17:10:00+00:00,10.20.2.216,10.40.6.216,analyst_06,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,901232,965342,46,3,0,8,normal
+2026-09-01T17:15:00+00:00,10.20.3.217,10.40.7.217,analyst_07,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,129784,785900,65,6,0,3,normal
+2026-09-01T17:20:00+00:00,10.20.4.218,198.51.100.9,analyst_08,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,427434,1110135,63,1,1,8,normal
+2026-09-01T17:25:00+00:00,10.20.5.219,10.40.1.219,analyst_09,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,1,364064,171472,79,4,0,7,normal
+2026-09-01T17:30:00+00:00,10.20.6.220,10.40.2.220,analyst_10,endpoint-000,Normal Login,Authorized interactive login and ordinary service traffic,high,0,6,465446,1153257,57,7,0,4,normal
+2026-09-01T17:35:00+00:00,10.20.7.221,10.40.3.221,analyst_11,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,323374,1346593,28,2,1,5,normal
+2026-09-01T17:40:00+00:00,10.20.8.222,198.51.100.13,analyst_12,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,126213,1215089,68,1,0,4,normal
+2026-09-01T17:45:00+00:00,10.20.9.223,10.40.5.223,analyst_13,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,752919,565095,40,4,1,3,normal
+2026-09-01T17:50:00+00:00,10.20.10.224,10.40.6.224,analyst_14,endpoint-004,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,0,10,319699,22721967,633,7,0,5,anomaly
+2026-09-01T17:55:00+00:00,10.20.11.225,10.40.7.225,analyst_15,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,1,481609,1761639,85,3,1,8,normal
+2026-09-01T18:00:00+00:00,10.20.0.226,198.51.100.17,analyst_16,endpoint-006,RDP Login,RDP login from new source with unusual target fan-out,medium,1,77,202061,586164,51,6,32,31,anomaly
+2026-09-01T18:05:00+00:00,10.20.1.227,10.40.1.227,analyst_17,endpoint-007,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,1,1,526821,19030624,495,5,0,7,anomaly
+2026-09-01T18:10:00+00:00,10.20.2.228,10.40.2.228,analyst_18,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,9,309585,3444712,27,3,1,5,normal
+2026-09-01T18:15:00+00:00,10.20.3.229,10.40.3.229,analyst_19,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,58102,1127887,26,6,1,7,normal
+2026-09-01T18:20:00+00:00,10.20.4.230,198.51.100.21,analyst_20,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,2,5,237955,585662,17,3,1,7,normal
+2026-09-01T18:25:00+00:00,10.20.5.231,10.40.5.231,analyst_21,endpoint-011,Data Exfiltration,Large outbound transfer to external destination,medium,1,10,705817430,212013,55,4,2,19,anomaly
+2026-09-01T18:30:00+00:00,10.20.6.232,10.40.6.232,analyst_22,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,358944,1207473,52,5,2,7,normal
+2026-09-01T18:35:00+00:00,10.20.7.233,10.40.7.233,analyst_23,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,623311,2236670,33,7,0,8,normal
+2026-09-01T18:40:00+00:00,10.20.8.234,198.51.100.25,analyst_24,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,590107,1668787,46,7,0,5,normal
+2026-09-01T18:45:00+00:00,10.20.9.235,10.40.1.235,analyst_25,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,226643,2270232,21,2,1,8,normal
+2026-09-01T18:50:00+00:00,10.20.10.236,10.40.2.236,analyst_26,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,206030,1347445,69,7,0,5,normal
+2026-09-01T18:55:00+00:00,10.20.11.237,10.40.3.237,analyst_27,endpoint-017,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,3,476325,782894,61,3,0,8,normal
+2026-09-01T19:00:00+00:00,10.20.0.238,198.51.100.29,analyst_28,endpoint-018,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,142560,379308,50,1,0,1,normal
+2026-09-01T19:05:00+00:00,10.20.1.239,10.40.5.239,analyst_29,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,437186,967782,60,2,1,7,normal
+2026-09-01T19:10:00+00:00,10.20.2.240,10.40.6.240,analyst_30,endpoint-020,Port Scan,Connection attempts across many ports and destinations,high,1,2,196270,172486,582,351,0,126,anomaly
+2026-09-01T19:15:00+00:00,10.20.3.241,10.40.7.241,analyst_31,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,3,155283,534530,66,4,2,3,normal
+2026-09-01T19:20:00+00:00,10.20.4.242,198.51.100.33,analyst_32,endpoint-022,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,5,257960,1684472,18,3,2,8,normal
+2026-09-01T19:25:00+00:00,10.20.5.243,10.40.1.243,analyst_33,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,258198,688518,74,6,0,7,normal
+2026-09-01T19:30:00+00:00,10.20.6.244,10.40.2.244,analyst_34,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,3,224618,843717,9,5,1,5,normal
+2026-09-01T19:35:00+00:00,10.20.7.245,10.40.3.245,analyst_35,endpoint-025,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,high,1,3,184453,10119826,772,4,0,7,anomaly
+2026-09-01T19:40:00+00:00,10.20.8.246,198.51.100.37,analyst_36,endpoint-026,Brute Force,Repeated authentication failures followed by a success,medium,138,97,441336,544166,59,7,84,1,anomaly
+2026-09-01T19:45:00+00:00,10.20.9.247,10.40.5.247,analyst_37,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,118975,510532,89,2,0,4,normal
+2026-09-01T19:50:00+00:00,10.20.10.248,10.40.6.248,analyst_38,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,245162,597394,41,2,3,5,normal
+2026-09-01T19:55:00+00:00,10.20.11.249,10.40.7.249,analyst_39,endpoint-029,RDP Login,RDP login from new source with unusual target fan-out,medium,1,50,205244,2625396,82,5,35,31,anomaly
+2026-09-01T20:00:00+00:00,10.20.0.10,198.51.100.41,analyst_00,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,0,1,554954,804951,42,1,0,8,normal
+2026-09-01T20:05:00+00:00,10.20.1.11,10.40.1.11,analyst_01,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,467145,3391953,29,1,1,6,normal
+2026-09-01T20:10:00+00:00,10.20.2.12,10.40.2.12,analyst_02,endpoint-032,Phishing,Suspicious email followed by anomalous sign-in activity,medium,1,100,444720,1104490,27,6,52,5,anomaly
+2026-09-01T20:15:00+00:00,10.20.3.13,10.40.3.13,analyst_03,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,676075,927764,8,1,0,8,normal
+2026-09-01T20:20:00+00:00,10.20.4.14,198.51.100.45,analyst_04,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,338792,265015,75,2,1,6,normal
+2026-09-01T20:25:00+00:00,10.20.5.15,10.40.5.15,analyst_05,endpoint-035,Normal Login,Authorized interactive login and ordinary service traffic,high,1,4,756024,1256141,76,3,0,1,normal
+2026-09-01T20:30:00+00:00,10.20.6.16,10.40.6.16,analyst_06,endpoint-036,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,483571,1146732,19,6,2,7,normal
+2026-09-01T20:35:00+00:00,10.20.7.17,10.40.7.17,analyst_07,endpoint-037,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,91752,1201866,82,7,1,8,normal
+2026-09-01T20:40:00+00:00,10.20.8.18,198.51.100.49,analyst_08,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,181267,658204,69,4,0,5,normal
+2026-09-01T20:45:00+00:00,10.20.9.19,10.40.1.19,analyst_09,endpoint-039,Brute Force,Repeated authentication failures followed by a success,medium,58,139,187179,207883,80,3,81,7,anomaly
+2026-09-01T20:50:00+00:00,10.20.10.20,10.40.2.20,analyst_10,endpoint-040,Normal Login,Authorized interactive login and ordinary service traffic,high,4,3,666256,1684231,81,4,0,6,normal
+2026-09-01T20:55:00+00:00,10.20.11.21,10.40.3.21,analyst_11,endpoint-041,Port Scan,Connection attempts across many ports and destinations,medium,0,7,321777,3532246,920,485,1,140,anomaly
+2026-09-01T21:00:00+00:00,10.20.0.22,198.51.100.53,analyst_12,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,519064,1967004,44,3,2,2,normal
+2026-09-01T21:05:00+00:00,10.20.1.23,10.40.5.23,analyst_13,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,565857,985710,79,1,2,6,normal
+2026-09-01T21:10:00+00:00,10.20.2.24,10.40.6.24,analyst_14,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,11,288408,232360,83,4,0,1,normal
+2026-09-01T21:15:00+00:00,10.20.3.25,10.40.7.25,analyst_15,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,1,11,492560,449832,38,4,1,7,normal
+2026-09-01T21:20:00+00:00,10.20.4.26,198.51.100.57,analyst_16,endpoint-046,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,169094,624716,57,4,1,4,normal
+2026-09-01T21:25:00+00:00,10.20.5.27,10.40.1.27,analyst_17,endpoint-047,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,0,9,656334,21236331,393,5,1,7,anomaly
+2026-09-01T21:30:00+00:00,10.20.6.28,10.40.2.28,analyst_18,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,585207,474057,67,2,2,3,normal
+2026-09-01T21:35:00+00:00,10.20.7.29,10.40.3.29,analyst_19,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,9,199281,701467,74,7,1,7,normal
+2026-09-01T21:40:00+00:00,10.20.8.30,198.51.100.61,analyst_20,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,0,9,136748,2064891,74,4,0,8,normal
+2026-09-01T21:45:00+00:00,10.20.9.31,10.40.5.31,analyst_21,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,1020298,405428,59,3,0,2,normal
+2026-09-01T21:50:00+00:00,10.20.10.32,10.40.6.32,analyst_22,endpoint-052,Data Exfiltration,Large outbound transfer to external destination,medium,1,4,539463776,959632,47,3,1,23,anomaly
+2026-09-01T21:55:00+00:00,10.20.11.33,10.40.7.33,analyst_23,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,103023,612519,19,3,0,2,normal
+2026-09-01T22:00:00+00:00,10.20.0.34,198.51.100.65,analyst_24,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,367558,2050072,30,4,1,3,normal
+2026-09-01T22:05:00+00:00,10.20.1.35,10.40.1.35,analyst_25,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,0,3,329455,254557,65,3,0,7,normal
+2026-09-01T22:10:00+00:00,10.20.2.36,10.40.2.36,analyst_26,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,99576,883600,71,6,0,4,normal
+2026-09-01T22:15:00+00:00,10.20.3.37,10.40.3.37,analyst_27,endpoint-057,Malware,Unsigned executable with unusual outbound connections,medium,0,1,29848047,412165,331,4,3,30,anomaly
+2026-09-01T22:20:00+00:00,10.20.4.38,198.51.100.69,analyst_28,endpoint-058,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,8,124588,1387473,55,7,6,1,normal
+2026-09-01T22:25:00+00:00,10.20.5.39,10.40.5.39,analyst_29,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,235536,1276006,72,2,0,7,normal
+2026-09-01T22:30:00+00:00,10.20.6.40,10.40.6.40,analyst_30,endpoint-060,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,267574,1584199,27,6,1,1,normal
+2026-09-01T22:35:00+00:00,10.20.7.41,10.40.7.41,analyst_31,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,170889,633514,63,5,0,8,normal
+2026-09-01T22:40:00+00:00,10.20.8.42,198.51.100.73,analyst_32,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,111172,2477651,67,1,1,5,normal
+2026-09-01T22:45:00+00:00,10.20.9.43,10.40.1.43,analyst_33,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,559748,463050,89,4,0,5,normal
+2026-09-01T22:50:00+00:00,10.20.10.44,10.40.2.44,analyst_34,endpoint-064,Malware,Unsigned executable with unusual outbound connections,medium,0,8,17036392,1591096,418,7,0,25,anomaly
+2026-09-01T22:55:00+00:00,10.20.11.45,10.40.3.45,analyst_35,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,191725,281419,49,2,1,1,normal
+2026-09-01T23:00:00+00:00,10.20.0.46,198.51.100.77,analyst_36,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,380822,1420875,79,7,2,2,normal
+2026-09-01T23:05:00+00:00,10.20.1.47,10.40.5.47,analyst_37,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,3,398486,1329658,22,6,1,8,normal
+2026-09-01T23:10:00+00:00,10.20.2.48,10.40.6.48,analyst_38,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,1179786,1157002,21,6,0,5,normal
+2026-09-01T23:15:00+00:00,10.20.3.49,10.40.7.49,analyst_39,endpoint-069,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,5,163302,1116495,80,2,6,1,normal
+2026-09-01T23:20:00+00:00,10.20.4.50,198.51.100.81,analyst_00,endpoint-000,Failed Login,Occasional incorrect password; subsequent normal activity,high,3,7,171781,601893,37,3,3,3,normal
+2026-09-01T23:25:00+00:00,10.20.5.51,10.40.1.51,analyst_01,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,339828,681881,23,3,0,4,normal
+2026-09-01T23:30:00+00:00,10.20.6.52,10.40.2.52,analyst_02,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,410268,425814,30,7,0,7,normal
+2026-09-01T23:35:00+00:00,10.20.7.53,10.40.3.53,analyst_03,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,286931,329579,79,2,0,2,normal
+2026-09-01T23:40:00+00:00,10.20.8.54,198.51.100.85,analyst_04,endpoint-004,XSS,WAF script tag and XSS pattern in request,medium,0,5,243853,12633538,646,1,1,4,anomaly
+2026-09-01T23:45:00+00:00,10.20.9.55,10.40.5.55,analyst_05,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,3,364246,412387,65,1,0,8,normal
+2026-09-01T23:50:00+00:00,10.20.10.56,10.40.6.56,analyst_06,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,1084203,444676,38,7,0,7,normal
+2026-09-01T23:55:00+00:00,10.20.11.57,10.40.7.57,analyst_07,endpoint-007,Port Scan,Connection attempts across many ports and destinations,medium,0,7,227630,1155812,1367,496,1,88,anomaly
+2026-09-02T00:00:00+00:00,10.20.0.58,198.51.100.89,analyst_08,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,162958,408635,83,7,1,2,normal
+2026-09-02T00:05:00+00:00,10.20.1.59,10.40.1.59,analyst_09,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,572948,1962059,18,7,2,1,normal
+2026-09-02T00:10:00+00:00,10.20.2.60,10.40.2.60,analyst_10,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,0,2,142361,310327,62,2,1,6,normal
+2026-09-02T00:15:00+00:00,10.20.3.61,10.40.3.61,analyst_11,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,607792,840694,22,7,1,6,normal
+2026-09-02T00:20:00+00:00,10.20.4.62,198.51.100.93,analyst_12,endpoint-012,XSS,WAF script tag and XSS pattern in request,medium,0,11,260455,11970416,698,6,1,2,anomaly
+2026-09-02T00:25:00+00:00,10.20.5.63,10.40.5.63,analyst_13,endpoint-013,Phishing,Suspicious email followed by anomalous sign-in activity,medium,0,65,381333,1692180,32,5,59,8,anomaly
+2026-09-02T00:30:00+00:00,10.20.6.64,10.40.6.64,analyst_14,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,198895,473822,82,5,0,2,normal
+2026-09-02T00:35:00+00:00,10.20.7.65,10.40.7.65,analyst_15,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,163096,524154,82,7,1,1,normal
+2026-09-02T00:40:00+00:00,10.20.8.66,198.51.100.97,analyst_16,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,173464,323118,32,7,1,2,normal
+2026-09-02T00:45:00+00:00,10.20.9.67,10.40.1.67,analyst_17,endpoint-017,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,245738,369746,84,2,2,6,normal
+2026-09-02T00:50:00+00:00,10.20.10.68,10.40.2.68,analyst_18,endpoint-018,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,625028,2650132,13,6,0,2,normal
+2026-09-02T00:55:00+00:00,10.20.11.69,10.40.3.69,analyst_19,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,164938,519405,56,1,1,3,normal
+2026-09-02T01:00:00+00:00,10.20.0.70,198.51.100.101,analyst_20,endpoint-020,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,high,0,10,36098625,1418753,1008,6,2,22,anomaly
+2026-09-02T01:05:00+00:00,10.20.1.71,10.40.5.71,analyst_21,endpoint-021,Malware,Unsigned executable with unusual outbound connections,medium,1,1,41125564,1834631,322,6,0,39,anomaly
+2026-09-02T01:10:00+00:00,10.20.2.72,10.40.6.72,analyst_22,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,489706,376890,65,5,0,3,normal
+2026-09-02T01:15:00+00:00,10.20.3.73,10.40.7.73,analyst_23,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,67717,415909,68,2,0,3,normal
+2026-09-02T01:20:00+00:00,10.20.4.74,198.51.100.105,analyst_24,endpoint-024,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,0,10,19920238,791882,213,4,0,7,anomaly
+2026-09-02T01:25:00+00:00,10.20.5.75,10.40.1.75,analyst_25,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,0,2,161301,3018921,88,7,0,1,normal
+2026-09-02T01:30:00+00:00,10.20.6.76,10.40.2.76,analyst_26,endpoint-026,Malware,Unsigned executable with unusual outbound connections,medium,1,3,33824213,991227,429,3,2,39,anomaly
+2026-09-02T01:35:00+00:00,10.20.7.77,10.40.3.77,analyst_27,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,215912,954112,56,5,1,2,normal
+2026-09-02T01:40:00+00:00,10.20.8.78,198.51.100.109,analyst_28,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,277392,1981606,73,4,0,2,normal
+2026-09-02T01:45:00+00:00,10.20.9.79,10.40.5.79,analyst_29,endpoint-029,Brute Force,Repeated authentication failures followed by a success,medium,42,144,181454,489823,60,2,174,3,anomaly
+2026-09-02T01:50:00+00:00,10.20.10.80,10.40.6.80,analyst_30,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,2,1,183962,223486,82,1,0,5,normal
+2026-09-02T01:55:00+00:00,10.20.11.81,10.40.7.81,analyst_31,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,196428,613079,14,6,0,7,normal
+2026-09-02T02:00:00+00:00,10.20.0.82,198.51.100.113,analyst_32,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,457857,1031078,43,3,3,7,normal
+2026-09-02T02:05:00+00:00,10.20.1.83,10.40.1.83,analyst_33,endpoint-033,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,0,3,43578274,813095,759,7,0,41,anomaly
+2026-09-02T02:10:00+00:00,10.20.2.84,10.40.2.84,analyst_34,endpoint-034,RDP Login,RDP login from new source with unusual target fan-out,medium,1,62,116110,1016762,42,2,41,24,anomaly
+2026-09-02T02:15:00+00:00,10.20.3.85,10.40.3.85,analyst_35,endpoint-035,Normal Login,Authorized interactive login and ordinary service traffic,high,1,6,142360,585393,58,6,0,3,normal
+2026-09-02T02:20:00+00:00,10.20.4.86,198.51.100.117,analyst_36,endpoint-036,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,11,413904,2033590,33,1,3,2,normal
+2026-09-02T02:25:00+00:00,10.20.5.87,10.40.5.87,analyst_37,endpoint-037,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,185219,384649,15,3,1,6,normal
+2026-09-02T02:30:00+00:00,10.20.6.88,10.40.6.88,analyst_38,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,1,268956,667608,8,3,0,5,normal
+2026-09-02T02:35:00+00:00,10.20.7.89,10.40.7.89,analyst_39,endpoint-039,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,406535,922680,7,6,2,3,normal
+2026-09-02T02:40:00+00:00,10.20.8.90,198.51.100.121,analyst_00,endpoint-040,Port Scan,Connection attempts across many ports and destinations,high,1,1,455348,595305,1316,153,0,151,anomaly
+2026-09-02T02:45:00+00:00,10.20.9.91,10.40.1.91,analyst_01,endpoint-041,Phishing,Suspicious email followed by anomalous sign-in activity,medium,0,73,141037,891046,88,1,29,6,anomaly
+2026-09-02T02:50:00+00:00,10.20.10.92,10.40.2.92,analyst_02,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,122975,1911714,11,5,3,6,normal
+2026-09-02T02:55:00+00:00,10.20.11.93,10.40.3.93,analyst_03,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,249395,1319719,5,6,1,3,normal
+2026-09-02T03:00:00+00:00,10.20.0.94,198.51.100.125,analyst_04,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,640234,1338010,11,2,0,2,normal
+2026-09-02T03:05:00+00:00,10.20.1.95,10.40.5.95,analyst_05,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,0,7,148082,358010,7,2,0,6,normal
+2026-09-02T03:10:00+00:00,10.20.2.96,10.40.6.96,analyst_06,endpoint-046,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,339072,784071,18,3,3,8,normal
+2026-09-02T03:15:00+00:00,10.20.3.97,10.40.7.97,analyst_07,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,177033,388013,10,5,2,3,normal
+2026-09-02T03:20:00+00:00,10.20.4.98,198.51.100.129,analyst_08,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,150932,695305,68,6,0,3,normal
+2026-09-02T03:25:00+00:00,10.20.5.99,10.40.1.99,analyst_09,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,226760,2558336,74,2,2,2,normal
+2026-09-02T03:30:00+00:00,10.20.6.100,10.40.2.100,analyst_10,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,1206287,679246,42,3,0,1,normal
+2026-09-02T03:35:00+00:00,10.20.7.101,10.40.3.101,analyst_11,endpoint-051,Command Injection,Application shell metacharacter warning and unexpected child process,medium,0,5,12870866,1251432,416,6,3,3,anomaly
+2026-09-02T03:40:00+00:00,10.20.8.102,198.51.100.133,analyst_12,endpoint-052,Brute Force,Repeated authentication failures followed by a success,medium,172,138,248596,1335645,73,1,134,8,anomaly
+2026-09-02T03:45:00+00:00,10.20.9.103,10.40.5.103,analyst_13,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,158382,1163794,21,1,0,2,normal
+2026-09-02T03:50:00+00:00,10.20.10.104,10.40.6.104,analyst_14,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,195950,332590,10,2,0,8,normal
+2026-09-02T03:55:00+00:00,10.20.11.105,10.40.7.105,analyst_15,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,1,9,458232,345878,19,5,2,2,normal
+2026-09-02T04:00:00+00:00,10.20.0.106,198.51.100.137,analyst_16,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,471039,1065364,59,5,0,1,normal
+2026-09-02T04:05:00+00:00,10.20.1.107,10.40.1.107,analyst_17,endpoint-057,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,4,174729,828012,7,5,2,1,normal
+2026-09-02T04:10:00+00:00,10.20.2.108,10.40.2.108,analyst_18,endpoint-058,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,110177,1768020,34,4,2,4,normal
+2026-09-02T04:15:00+00:00,10.20.3.109,10.40.3.109,analyst_19,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,282956,548648,45,4,0,3,normal
+2026-09-02T04:20:00+00:00,10.20.4.110,198.51.100.141,analyst_20,endpoint-060,Credential Access,LSASS access credential dump alert with unusual process lineage,high,2,92,185474,2150940,10,3,3,28,anomaly
+2026-09-02T04:25:00+00:00,10.20.5.111,10.40.5.111,analyst_21,endpoint-061,Malware,Unsigned executable with unusual outbound connections,medium,0,3,44040991,463123,308,6,0,39,anomaly
+2026-09-02T04:30:00+00:00,10.20.6.112,10.40.6.112,analyst_22,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,409793,909629,12,6,1,1,normal
+2026-09-02T04:35:00+00:00,10.20.7.113,10.40.7.113,analyst_23,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,298105,529215,43,3,0,3,normal
+2026-09-02T04:40:00+00:00,10.20.8.114,198.51.100.145,analyst_24,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,296058,2298441,68,6,0,2,normal
+2026-09-02T04:45:00+00:00,10.20.9.115,10.40.1.115,analyst_25,endpoint-065,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,high,0,2,28389693,473532,736,5,1,23,anomaly
+2026-09-02T04:50:00+00:00,10.20.10.116,10.40.2.116,analyst_26,endpoint-066,Brute Force,Repeated authentication failures followed by a success,medium,64,166,68461,489869,32,4,160,5,anomaly
+2026-09-02T04:55:00+00:00,10.20.11.117,10.40.3.117,analyst_27,endpoint-067,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,0,4,21520873,333277,1463,3,0,39,anomaly
+2026-09-02T05:00:00+00:00,10.20.0.118,198.51.100.149,analyst_28,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,338531,551862,42,7,0,7,normal
+2026-09-02T05:05:00+00:00,10.20.1.119,10.40.5.119,analyst_29,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,265913,1152754,41,4,1,4,normal
+2026-09-02T05:10:00+00:00,10.20.2.120,10.40.6.120,analyst_30,endpoint-000,Failed Login,Occasional incorrect password; subsequent normal activity,high,2,6,132537,604081,22,7,2,8,normal
+2026-09-02T05:15:00+00:00,10.20.3.121,10.40.7.121,analyst_31,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,466247,1412748,60,1,2,6,normal
+2026-09-02T05:20:00+00:00,10.20.4.122,198.51.100.153,analyst_32,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,387432,1456527,42,4,3,3,normal
+2026-09-02T05:25:00+00:00,10.20.5.123,10.40.1.123,analyst_33,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,78327,622585,89,1,1,4,normal
+2026-09-02T05:30:00+00:00,10.20.6.124,10.40.2.124,analyst_34,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,91415,642864,65,1,2,3,normal
+2026-09-02T05:35:00+00:00,10.20.7.125,10.40.3.125,analyst_35,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,270101,1144579,62,1,3,2,normal
+2026-09-02T05:40:00+00:00,10.20.8.126,198.51.100.157,analyst_36,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,517057,573280,89,3,0,4,normal
+2026-09-02T05:45:00+00:00,10.20.9.127,10.40.5.127,analyst_37,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,139107,1105377,79,3,1,1,normal
+2026-09-02T05:50:00+00:00,10.20.10.128,10.40.6.128,analyst_38,endpoint-008,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,1,8,9122904,308604,189,4,0,1,anomaly
+2026-09-02T05:55:00+00:00,10.20.11.129,10.40.7.129,analyst_39,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,11,295059,2733098,45,6,0,4,normal
+2026-09-02T06:00:00+00:00,10.20.0.130,198.51.100.161,analyst_00,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,2,4,178706,401151,72,7,0,5,normal
+2026-09-02T06:05:00+00:00,10.20.1.131,10.40.1.131,analyst_01,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,141163,680682,73,6,3,3,normal
+2026-09-02T06:10:00+00:00,10.20.2.132,10.40.2.132,analyst_02,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,371683,2388625,72,2,1,8,normal
+2026-09-02T06:15:00+00:00,10.20.3.133,10.40.3.133,analyst_03,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,262405,638744,24,6,1,4,normal
+2026-09-02T06:20:00+00:00,10.20.4.134,198.51.100.165,analyst_04,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,507390,810329,56,5,1,6,normal
+2026-09-02T06:25:00+00:00,10.20.5.135,10.40.5.135,analyst_05,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,2,6,748840,1349344,15,7,3,7,normal
+2026-09-02T06:30:00+00:00,10.20.6.136,10.40.6.136,analyst_06,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,257841,670202,56,7,0,5,normal
+2026-09-02T06:35:00+00:00,10.20.7.137,10.40.7.137,analyst_07,endpoint-017,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,194062,1654325,84,2,1,4,normal
+2026-09-02T06:40:00+00:00,10.20.8.138,198.51.100.169,analyst_08,endpoint-018,Insider Threat,Employee bulk export outside approved work schedule,medium,0,1,115530616,1274065,543,5,1,6,anomaly
+2026-09-02T06:45:00+00:00,10.20.9.139,10.40.1.139,analyst_09,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,211787,1331660,50,7,0,2,normal
+2026-09-02T06:50:00+00:00,10.20.10.140,10.40.2.140,analyst_10,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,0,4,326071,3083363,18,1,2,3,normal
+2026-09-02T06:55:00+00:00,10.20.11.141,10.40.3.141,analyst_11,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,468510,1152889,84,4,2,5,normal
+2026-09-02T07:00:00+00:00,10.20.0.142,198.51.100.173,analyst_12,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,179986,1437009,29,7,2,5,normal
+2026-09-02T07:05:00+00:00,10.20.1.143,10.40.5.143,analyst_13,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,256197,690921,24,3,0,3,normal
+2026-09-02T07:10:00+00:00,10.20.2.144,10.40.6.144,analyst_14,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,576359,784523,66,6,0,1,normal
+2026-09-02T07:15:00+00:00,10.20.3.145,10.40.7.145,analyst_15,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,1,9,536746,1218703,81,6,0,1,normal
+2026-09-02T07:20:00+00:00,10.20.4.146,198.51.100.177,analyst_16,endpoint-026,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,336895,410936,24,6,0,3,normal
+2026-09-02T07:25:00+00:00,10.20.5.147,10.40.1.147,analyst_17,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,4,1,317386,775249,5,4,0,4,normal
+2026-09-02T07:30:00+00:00,10.20.6.148,10.40.2.148,analyst_18,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,201317,287609,57,2,0,3,normal
+2026-09-02T07:35:00+00:00,10.20.7.149,10.40.3.149,analyst_19,endpoint-029,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,96354,749448,82,5,1,3,normal
+2026-09-02T07:40:00+00:00,10.20.8.150,198.51.100.181,analyst_20,endpoint-030,Insider Threat,Employee bulk export outside approved work schedule,high,0,2,120106614,1482721,402,2,1,4,anomaly
+2026-09-02T07:45:00+00:00,10.20.9.151,10.40.5.151,analyst_21,endpoint-031,Data Exfiltration,Large outbound transfer to external destination,medium,2,7,927373943,2288859,69,7,1,22,anomaly
+2026-09-02T07:50:00+00:00,10.20.10.152,10.40.6.152,analyst_22,endpoint-032,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,1,1,423417,22822322,757,2,0,1,anomaly
+2026-09-02T07:55:00+00:00,10.20.11.153,10.40.7.153,analyst_23,endpoint-033,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,2,259892,356312,25,3,7,4,normal
+2026-09-02T08:00:00+00:00,10.20.0.154,198.51.100.185,analyst_24,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,325905,1401508,22,6,0,3,normal
+2026-09-02T08:05:00+00:00,10.20.1.155,10.40.1.155,analyst_25,endpoint-035,Failed Login,Occasional incorrect password; subsequent normal activity,high,3,10,236332,542835,40,2,3,2,normal
+2026-09-02T08:10:00+00:00,10.20.2.156,10.40.2.156,analyst_26,endpoint-036,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,254503,774457,14,5,0,7,normal
+2026-09-02T08:15:00+00:00,10.20.3.157,10.40.3.157,analyst_27,endpoint-037,Failed Login,Occasional incorrect password; subsequent normal activity,medium,5,7,150272,564924,71,7,5,8,normal
+2026-09-02T08:20:00+00:00,10.20.4.158,198.51.100.189,analyst_28,endpoint-038,Port Scan,Connection attempts across many ports and destinations,medium,0,10,1083430,610534,994,561,1,62,anomaly
+2026-09-02T08:25:00+00:00,10.20.5.159,10.40.5.159,analyst_29,endpoint-039,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,2,91,393824,276217,58,1,1,28,anomaly
+2026-09-02T08:30:00+00:00,10.20.6.160,10.40.6.160,analyst_30,endpoint-040,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,high,0,4,12899212,241766,315,5,1,1,anomaly
+2026-09-02T08:35:00+00:00,10.20.7.161,10.40.7.161,analyst_31,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,142906,1597337,20,6,4,4,normal
+2026-09-02T08:40:00+00:00,10.20.8.162,198.51.100.193,analyst_32,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,224953,721117,62,6,0,6,normal
+2026-09-02T08:45:00+00:00,10.20.9.163,10.40.1.163,analyst_33,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,10,659254,760166,51,7,2,8,normal
+2026-09-02T08:50:00+00:00,10.20.10.164,10.40.2.164,analyst_34,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,572472,952505,72,4,0,4,normal
+2026-09-02T08:55:00+00:00,10.20.11.165,10.40.3.165,analyst_35,endpoint-045,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,high,1,3,14408666,447079,364,2,1,5,anomaly
+2026-09-02T09:00:00+00:00,10.20.0.166,198.51.100.197,analyst_36,endpoint-046,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,93979,811150,58,4,0,4,normal
+2026-09-02T09:05:00+00:00,10.20.1.167,10.40.5.167,analyst_37,endpoint-047,Brute Force,Repeated authentication failures followed by a success,medium,52,110,333040,1165500,17,7,74,4,anomaly
+2026-09-02T09:10:00+00:00,10.20.2.168,10.40.6.168,analyst_38,endpoint-048,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,0,111,254690,534124,72,2,3,44,anomaly
+2026-09-02T09:15:00+00:00,10.20.3.169,10.40.7.169,analyst_39,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,373625,762498,64,1,0,8,normal
+2026-09-02T09:20:00+00:00,10.20.4.170,198.51.100.1,analyst_00,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,2,4,128382,363160,49,4,0,2,normal
+2026-09-02T09:25:00+00:00,10.20.5.171,10.40.1.171,analyst_01,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,211234,717787,32,1,1,5,normal
+2026-09-02T09:30:00+00:00,10.20.6.172,10.40.2.172,analyst_02,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,254833,484967,28,1,0,3,normal
+2026-09-02T09:35:00+00:00,10.20.7.173,10.40.3.173,analyst_03,endpoint-053,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,1,287366,830706,18,5,7,8,normal
+2026-09-02T09:40:00+00:00,10.20.8.174,198.51.100.5,analyst_04,endpoint-054,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,7,354841,968357,89,3,6,2,normal
+2026-09-02T09:45:00+00:00,10.20.9.175,10.40.5.175,analyst_05,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,2,2,181169,2199833,50,3,0,5,normal
+2026-09-02T09:50:00+00:00,10.20.10.176,10.40.6.176,analyst_06,endpoint-056,XSS,WAF script tag and XSS pattern in request,medium,0,9,87112,14582551,654,3,0,5,anomaly
+2026-09-02T09:55:00+00:00,10.20.11.177,10.40.7.177,analyst_07,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,529457,671105,42,6,0,7,normal
+2026-09-02T10:00:00+00:00,10.20.0.178,198.51.100.9,analyst_08,endpoint-058,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,1,6,10344050,352672,220,5,0,6,anomaly
+2026-09-02T10:05:00+00:00,10.20.1.179,10.40.1.179,analyst_09,endpoint-059,Failed Login,Occasional incorrect password; subsequent normal activity,medium,4,6,345999,772757,28,4,4,5,normal
+2026-09-02T10:10:00+00:00,10.20.2.180,10.40.2.180,analyst_10,endpoint-060,Failed Login,Occasional incorrect password; subsequent normal activity,high,6,9,380885,605826,6,4,6,8,normal
+2026-09-02T10:15:00+00:00,10.20.3.181,10.40.3.181,analyst_11,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,140947,1087003,85,1,1,3,normal
+2026-09-02T10:20:00+00:00,10.20.4.182,198.51.100.13,analyst_12,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,546346,2639688,22,5,0,8,normal
+2026-09-02T10:25:00+00:00,10.20.5.183,10.40.5.183,analyst_13,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,180643,591268,85,3,2,6,normal
+2026-09-02T10:30:00+00:00,10.20.6.184,10.40.6.184,analyst_14,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,128893,1390926,88,3,0,3,normal
+2026-09-02T10:35:00+00:00,10.20.7.185,10.40.7.185,analyst_15,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,1,8,437901,146335,49,6,0,3,normal
+2026-09-02T10:40:00+00:00,10.20.8.186,198.51.100.17,analyst_16,endpoint-066,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,0,7,33397300,661216,1256,6,1,22,anomaly
+2026-09-02T10:45:00+00:00,10.20.9.187,10.40.1.187,analyst_17,endpoint-067,Failed Login,Occasional incorrect password; subsequent normal activity,medium,4,9,619216,663178,7,4,4,5,normal
+2026-09-02T10:50:00+00:00,10.20.10.188,10.40.2.188,analyst_18,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,405365,936735,49,6,0,4,normal
+2026-09-02T10:55:00+00:00,10.20.11.189,10.40.3.189,analyst_19,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,152533,2043581,83,2,1,5,normal
+2026-09-02T11:00:00+00:00,10.20.0.190,198.51.100.21,analyst_20,endpoint-000,Normal Login,Authorized interactive login and ordinary service traffic,high,1,9,230324,977175,54,5,0,4,normal
+2026-09-02T11:05:00+00:00,10.20.1.191,10.40.5.191,analyst_21,endpoint-001,Insider Threat,Employee bulk export outside approved work schedule,medium,0,4,129192054,1415704,357,3,0,1,anomaly
+2026-09-02T11:10:00+00:00,10.20.2.192,10.40.6.192,analyst_22,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,78960,381950,79,7,0,8,normal
+2026-09-02T11:15:00+00:00,10.20.3.193,10.40.7.193,analyst_23,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,372677,373456,86,1,3,1,normal
+2026-09-02T11:20:00+00:00,10.20.4.194,198.51.100.25,analyst_24,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,245369,413677,31,7,0,3,normal
+2026-09-02T11:25:00+00:00,10.20.5.195,10.40.1.195,analyst_25,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,5,190559,388455,47,1,1,2,normal
+2026-09-02T11:30:00+00:00,10.20.6.196,10.40.2.196,analyst_26,endpoint-006,Ransomware,File encryption burst and ransom note indicator,medium,0,8,39739366,1799930,759,7,0,1,anomaly
+2026-09-02T11:35:00+00:00,10.20.7.197,10.40.3.197,analyst_27,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,117090,321648,42,1,0,3,normal
+2026-09-02T11:40:00+00:00,10.20.8.198,198.51.100.29,analyst_28,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,106844,2582023,44,7,0,8,normal
+2026-09-02T11:45:00+00:00,10.20.9.199,10.40.5.199,analyst_29,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,97402,693711,32,5,1,1,normal
+2026-09-02T11:50:00+00:00,10.20.10.200,10.40.6.200,analyst_30,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,98913,1941916,65,3,1,2,normal
+2026-09-02T11:55:00+00:00,10.20.11.201,10.40.7.201,analyst_31,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,200823,527897,17,3,0,3,normal
+2026-09-02T12:00:00+00:00,10.20.0.202,198.51.100.33,analyst_32,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,362036,812713,53,6,0,4,normal
+2026-09-02T12:05:00+00:00,10.20.1.203,10.40.1.203,analyst_33,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,128828,1317061,21,6,2,7,normal
+2026-09-02T12:10:00+00:00,10.20.2.204,10.40.2.204,analyst_34,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,252928,2110202,81,6,1,6,normal
+2026-09-02T12:15:00+00:00,10.20.3.205,10.40.3.205,analyst_35,endpoint-015,Failed Login,Occasional incorrect password; subsequent normal activity,high,5,8,510032,780053,31,1,5,7,normal
+2026-09-02T12:20:00+00:00,10.20.4.206,198.51.100.37,analyst_36,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,156968,3796194,49,2,0,3,normal
+2026-09-02T12:25:00+00:00,10.20.5.207,10.40.5.207,analyst_37,endpoint-017,Command Injection,Application shell metacharacter warning and unexpected child process,medium,0,3,17918045,491927,764,5,1,6,anomaly
+2026-09-02T12:30:00+00:00,10.20.6.208,10.40.6.208,analyst_38,endpoint-018,Malware,Unsigned executable with unusual outbound connections,medium,0,10,30514793,689928,252,6,2,22,anomaly
+2026-09-02T12:35:00+00:00,10.20.7.209,10.40.7.209,analyst_39,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,162591,977218,64,6,1,4,normal
+2026-09-02T12:40:00+00:00,10.20.8.210,198.51.100.41,analyst_00,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,0,2,208275,638965,7,4,0,5,normal
+2026-09-02T12:45:00+00:00,10.20.9.211,10.40.1.211,analyst_01,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,316144,1754699,36,1,2,3,normal
+2026-09-02T12:50:00+00:00,10.20.10.212,10.40.2.212,analyst_02,endpoint-022,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,8,445519,687131,20,5,2,7,normal
+2026-09-02T12:55:00+00:00,10.20.11.213,10.40.3.213,analyst_03,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,286070,3454680,33,5,1,5,normal
+2026-09-02T13:00:00+00:00,10.20.0.214,198.51.100.45,analyst_04,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,301631,952359,86,5,2,3,normal
+2026-09-02T13:05:00+00:00,10.20.1.215,10.40.5.215,analyst_05,endpoint-025,Failed Login,Occasional incorrect password; subsequent normal activity,high,4,4,273000,1019862,78,5,4,5,normal
+2026-09-02T13:10:00+00:00,10.20.2.216,10.40.6.216,analyst_06,endpoint-026,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,5,184059,1180817,89,6,3,4,normal
+2026-09-02T13:15:00+00:00,10.20.3.217,10.40.7.217,analyst_07,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,256608,730687,48,1,3,5,normal
+2026-09-02T13:20:00+00:00,10.20.4.218,198.51.100.49,analyst_08,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,251855,1437072,7,3,0,3,normal
+2026-09-02T13:25:00+00:00,10.20.5.219,10.40.1.219,analyst_09,endpoint-029,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,408190,1281765,40,6,0,5,normal
+2026-09-02T13:30:00+00:00,10.20.6.220,10.40.2.220,analyst_10,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,1,8,166534,907029,43,5,1,3,normal
+2026-09-02T13:35:00+00:00,10.20.7.221,10.40.3.221,analyst_11,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,220931,726366,6,5,3,4,normal
+2026-09-02T13:40:00+00:00,10.20.8.222,198.51.100.53,analyst_12,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,406919,847975,56,5,1,8,normal
+2026-09-02T13:45:00+00:00,10.20.9.223,10.40.5.223,analyst_13,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,381851,3540399,83,7,0,2,normal
+2026-09-02T13:50:00+00:00,10.20.10.224,10.40.6.224,analyst_14,endpoint-034,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,3,84223,1152823,11,5,7,7,normal
+2026-09-02T13:55:00+00:00,10.20.11.225,10.40.7.225,analyst_15,endpoint-035,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,high,0,6,39658977,486124,1586,1,0,23,anomaly
+2026-09-02T14:00:00+00:00,10.20.0.226,198.51.100.57,analyst_16,endpoint-036,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,11,339511,1158961,68,4,6,4,normal
+2026-09-02T14:05:00+00:00,10.20.1.227,10.40.1.227,analyst_17,endpoint-037,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,477426,1518946,52,4,0,1,normal
+2026-09-02T14:10:00+00:00,10.20.2.228,10.40.2.228,analyst_18,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,133253,1016487,44,2,0,6,normal
+2026-09-02T14:15:00+00:00,10.20.3.229,10.40.3.229,analyst_19,endpoint-039,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,213562,427107,65,5,0,8,normal
+2026-09-02T14:20:00+00:00,10.20.4.230,198.51.100.61,analyst_20,endpoint-040,Failed Login,Occasional incorrect password; subsequent normal activity,high,3,7,129098,542575,44,6,3,5,normal
+2026-09-02T14:25:00+00:00,10.20.5.231,10.40.5.231,analyst_21,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,213914,970270,78,5,1,7,normal
+2026-09-02T14:30:00+00:00,10.20.6.232,10.40.6.232,analyst_22,endpoint-042,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,92,226450,261281,570,3,0,1,anomaly
+2026-09-02T14:35:00+00:00,10.20.7.233,10.40.7.233,analyst_23,endpoint-043,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,4,173542,1019454,17,1,7,7,normal
+2026-09-02T14:40:00+00:00,10.20.8.234,198.51.100.65,analyst_24,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,109451,1140085,54,7,1,5,normal
+2026-09-02T14:45:00+00:00,10.20.9.235,10.40.1.235,analyst_25,endpoint-045,Failed Login,Occasional incorrect password; subsequent normal activity,high,6,9,328466,1607172,52,6,6,2,normal
+2026-09-02T14:50:00+00:00,10.20.10.236,10.40.2.236,analyst_26,endpoint-046,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,1,10,297144,16462653,838,7,1,3,anomaly
+2026-09-02T14:55:00+00:00,10.20.11.237,10.40.3.237,analyst_27,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,308573,634798,81,7,2,2,normal
+2026-09-02T15:00:00+00:00,10.20.0.238,198.51.100.69,analyst_28,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,522572,466010,11,3,0,4,normal
+2026-09-02T15:05:00+00:00,10.20.1.239,10.40.5.239,analyst_29,endpoint-049,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,1,4,10427541,1145550,1499,2,0,26,anomaly
+2026-09-02T15:10:00+00:00,10.20.2.240,10.40.6.240,analyst_30,endpoint-050,Insider Threat,Employee bulk export outside approved work schedule,high,1,2,129184312,824238,384,4,1,7,anomaly
+2026-09-02T15:15:00+00:00,10.20.3.241,10.40.7.241,analyst_31,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,1,681100,627067,55,6,1,6,normal
+2026-09-02T15:20:00+00:00,10.20.4.242,198.51.100.73,analyst_32,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,312162,1043615,6,6,2,6,normal
+2026-09-02T15:25:00+00:00,10.20.5.243,10.40.1.243,analyst_33,endpoint-053,Malware,Unsigned executable with unusual outbound connections,medium,0,11,10873170,1792391,398,1,0,32,anomaly
+2026-09-02T15:30:00+00:00,10.20.6.244,10.40.2.244,analyst_34,endpoint-054,Failed Login,Occasional incorrect password; subsequent normal activity,medium,4,1,123907,464380,15,4,4,6,normal
+2026-09-02T15:35:00+00:00,10.20.7.245,10.40.3.245,analyst_35,endpoint-055,XSS,WAF script tag and XSS pattern in request,high,0,10,585016,16779226,618,1,3,6,anomaly
+2026-09-02T15:40:00+00:00,10.20.8.246,198.51.100.77,analyst_36,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,194527,974498,80,7,1,4,normal
+2026-09-02T15:45:00+00:00,10.20.9.247,10.40.5.247,analyst_37,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,150301,1007236,79,1,1,8,normal
+2026-09-02T15:50:00+00:00,10.20.10.248,10.40.6.248,analyst_38,endpoint-058,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,734150,1041238,66,7,0,8,normal
+2026-09-02T15:55:00+00:00,10.20.11.249,10.40.7.249,analyst_39,endpoint-059,Brute Force,Repeated authentication failures followed by a success,medium,61,191,136615,2013714,13,6,140,5,anomaly
+2026-09-02T16:00:00+00:00,10.20.0.10,198.51.100.81,analyst_00,endpoint-060,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,311236,604885,69,1,0,3,normal
+2026-09-02T16:05:00+00:00,10.20.1.11,10.40.1.11,analyst_01,endpoint-061,Malware,Unsigned executable with unusual outbound connections,medium,0,5,30897736,680155,268,5,1,39,anomaly
+2026-09-02T16:10:00+00:00,10.20.2.12,10.40.2.12,analyst_02,endpoint-062,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,6,244298,806271,69,2,2,6,normal
+2026-09-02T16:15:00+00:00,10.20.3.13,10.40.3.13,analyst_03,endpoint-063,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,1,7,249214,12786540,671,3,1,1,anomaly
+2026-09-02T16:20:00+00:00,10.20.4.14,198.51.100.85,analyst_04,endpoint-064,Command Injection,Application shell metacharacter warning and unexpected child process,medium,1,4,10745802,304924,493,4,0,2,anomaly
+2026-09-02T16:25:00+00:00,10.20.5.15,10.40.5.15,analyst_05,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,0,9,341480,254923,81,6,2,5,normal
+2026-09-02T16:30:00+00:00,10.20.6.16,10.40.6.16,analyst_06,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,265920,593564,30,2,1,8,normal
+2026-09-02T16:35:00+00:00,10.20.7.17,10.40.7.17,analyst_07,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,181519,560053,37,6,3,1,normal
+2026-09-02T16:40:00+00:00,10.20.8.18,198.51.100.89,analyst_08,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,256109,311157,33,3,1,1,normal
+2026-09-02T16:45:00+00:00,10.20.9.19,10.40.1.19,analyst_09,endpoint-069,RDP Login,RDP login from new source with unusual target fan-out,medium,0,68,784510,1013682,32,7,49,29,anomaly
+2026-09-02T16:50:00+00:00,10.20.10.20,10.40.2.20,analyst_10,endpoint-000,Brute Force,Repeated authentication failures followed by a success,high,109,77,317739,717509,6,5,131,8,anomaly
+2026-09-02T16:55:00+00:00,10.20.11.21,10.40.3.21,analyst_11,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,410607,192576,25,4,2,4,normal
+2026-09-02T17:00:00+00:00,10.20.0.22,198.51.100.93,analyst_12,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,160298,1289130,70,6,1,5,normal
+2026-09-02T17:05:00+00:00,10.20.1.23,10.40.5.23,analyst_13,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,523643,400703,28,1,2,4,normal
+2026-09-02T17:10:00+00:00,10.20.2.24,10.40.6.24,analyst_14,endpoint-004,RDP Login,RDP login from new source with unusual target fan-out,medium,0,93,113554,781121,57,4,31,21,anomaly
+2026-09-02T17:15:00+00:00,10.20.3.25,10.40.7.25,analyst_15,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,9,176318,945155,78,7,0,5,normal
+2026-09-02T17:20:00+00:00,10.20.4.26,198.51.100.97,analyst_16,endpoint-006,Insider Threat,Employee bulk export outside approved work schedule,medium,0,2,85086484,494440,463,6,0,6,anomaly
+2026-09-02T17:25:00+00:00,10.20.5.27,10.40.1.27,analyst_17,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,5,384310,319936,87,5,0,8,normal
+2026-09-02T17:30:00+00:00,10.20.6.28,10.40.2.28,analyst_18,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,216804,305231,47,4,0,1,normal
+2026-09-02T17:35:00+00:00,10.20.7.29,10.40.3.29,analyst_19,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,762813,1398789,20,1,2,5,normal
+2026-09-02T17:40:00+00:00,10.20.8.30,198.51.100.101,analyst_20,endpoint-010,Failed Login,Occasional incorrect password; subsequent normal activity,high,6,4,131642,860999,23,1,6,4,normal
+2026-09-02T17:45:00+00:00,10.20.9.31,10.40.5.31,analyst_21,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,209372,336463,68,3,2,1,normal
+2026-09-02T17:50:00+00:00,10.20.10.32,10.40.6.32,analyst_22,endpoint-012,Failed Login,Occasional incorrect password; subsequent normal activity,medium,5,10,275755,1033125,74,7,5,7,normal
+2026-09-02T17:55:00+00:00,10.20.11.33,10.40.7.33,analyst_23,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,241055,656902,64,3,1,3,normal
+2026-09-02T18:00:00+00:00,10.20.0.34,198.51.100.105,analyst_24,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,413368,518695,62,5,3,5,normal
+2026-09-02T18:05:00+00:00,10.20.1.35,10.40.1.35,analyst_25,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,0,9,314466,935748,20,7,0,7,normal
+2026-09-02T18:10:00+00:00,10.20.2.36,10.40.2.36,analyst_26,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,200356,2529938,78,4,0,8,normal
+2026-09-02T18:15:00+00:00,10.20.3.37,10.40.3.37,analyst_27,endpoint-017,Ransomware,File encryption burst and ransom note indicator,medium,0,4,55779913,590636,835,7,2,8,anomaly
+2026-09-02T18:20:00+00:00,10.20.4.38,198.51.100.109,analyst_28,endpoint-018,Phishing,Suspicious email followed by anomalous sign-in activity,medium,0,79,159432,2283046,41,3,49,7,anomaly
+2026-09-02T18:25:00+00:00,10.20.5.39,10.40.5.39,analyst_29,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,520915,495514,59,4,0,6,normal
+2026-09-02T18:30:00+00:00,10.20.6.40,10.40.6.40,analyst_30,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,2,11,128830,991459,20,2,0,2,normal
+2026-09-02T18:35:00+00:00,10.20.7.41,10.40.7.41,analyst_31,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,210721,911331,86,1,0,1,normal
+2026-09-02T18:40:00+00:00,10.20.8.42,198.51.100.113,analyst_32,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,712502,304284,15,1,1,3,normal
+2026-09-02T18:45:00+00:00,10.20.9.43,10.40.1.43,analyst_33,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,285900,241755,22,6,1,6,normal
+2026-09-02T18:50:00+00:00,10.20.10.44,10.40.2.44,analyst_34,endpoint-024,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,98,511804,881012,578,1,1,3,anomaly
+2026-09-02T18:55:00+00:00,10.20.11.45,10.40.3.45,analyst_35,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,643162,1018470,13,3,1,4,normal
+2026-09-02T19:00:00+00:00,10.20.0.46,198.51.100.117,analyst_36,endpoint-026,Failed Login,Occasional incorrect password; subsequent normal activity,medium,5,10,357356,500244,89,1,5,1,normal
+2026-09-02T19:05:00+00:00,10.20.1.47,10.40.5.47,analyst_37,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,270312,1223711,14,6,1,7,normal
+2026-09-02T19:10:00+00:00,10.20.2.48,10.40.6.48,analyst_38,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,1,315717,1589483,29,6,1,6,normal
+2026-09-02T19:15:00+00:00,10.20.3.49,10.40.7.49,analyst_39,endpoint-029,Malware,Unsigned executable with unusual outbound connections,medium,2,5,36722611,1862151,285,2,2,41,anomaly
+2026-09-02T19:20:00+00:00,10.20.4.50,198.51.100.121,analyst_00,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,0,5,403975,2201903,47,3,0,1,normal
+2026-09-02T19:25:00+00:00,10.20.5.51,10.40.1.51,analyst_01,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,408898,638080,42,4,0,7,normal
+2026-09-02T19:30:00+00:00,10.20.6.52,10.40.2.52,analyst_02,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,235050,1158119,20,4,0,8,normal
+2026-09-02T19:35:00+00:00,10.20.7.53,10.40.3.53,analyst_03,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,122502,608728,26,2,1,2,normal
+2026-09-02T19:40:00+00:00,10.20.8.54,198.51.100.125,analyst_04,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,44917,420088,37,6,1,3,normal
+2026-09-02T19:45:00+00:00,10.20.9.55,10.40.5.55,analyst_05,endpoint-035,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,732121,1037742,36,3,0,2,normal
+2026-09-02T19:50:00+00:00,10.20.10.56,10.40.6.56,analyst_06,endpoint-036,Failed Login,Occasional incorrect password; subsequent normal activity,medium,5,1,84461,291462,83,1,5,2,normal
+2026-09-02T19:55:00+00:00,10.20.11.57,10.40.7.57,analyst_07,endpoint-037,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,3,129787,593202,46,4,7,4,normal
+2026-09-02T20:00:00+00:00,10.20.0.58,198.51.100.129,analyst_08,endpoint-038,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,11,236716,468364,75,4,3,6,normal
+2026-09-02T20:05:00+00:00,10.20.1.59,10.40.1.59,analyst_09,endpoint-039,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,9,313672,602449,23,2,2,4,normal
+2026-09-02T20:10:00+00:00,10.20.2.60,10.40.2.60,analyst_10,endpoint-040,Failed Login,Occasional incorrect password; subsequent normal activity,high,5,5,167274,436172,44,1,5,7,normal
+2026-09-02T20:15:00+00:00,10.20.3.61,10.40.3.61,analyst_11,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,413086,1881941,89,3,1,8,normal
+2026-09-02T20:20:00+00:00,10.20.4.62,198.51.100.133,analyst_12,endpoint-042,Phishing,Suspicious email followed by anomalous sign-in activity,medium,1,73,339398,889563,63,6,33,3,anomaly
+2026-09-02T20:25:00+00:00,10.20.5.63,10.40.5.63,analyst_13,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,639516,860772,45,4,0,4,normal
+2026-09-02T20:30:00+00:00,10.20.6.64,10.40.6.64,analyst_14,endpoint-044,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,78,112432,303982,481,1,1,4,anomaly
+2026-09-02T20:35:00+00:00,10.20.7.65,10.40.7.65,analyst_15,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,0,3,225795,1019324,62,5,0,4,normal
+2026-09-02T20:40:00+00:00,10.20.8.66,198.51.100.137,analyst_16,endpoint-046,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,390705,586305,47,3,0,6,normal
+2026-09-02T20:45:00+00:00,10.20.9.67,10.40.1.67,analyst_17,endpoint-047,Data Exfiltration,Large outbound transfer to external destination,medium,1,11,363855034,477163,39,7,2,22,anomaly
+2026-09-02T20:50:00+00:00,10.20.10.68,10.40.2.68,analyst_18,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,195867,971695,33,3,0,1,normal
+2026-09-02T20:55:00+00:00,10.20.11.69,10.40.3.69,analyst_19,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,196031,946585,79,5,0,4,normal
+2026-09-02T21:00:00+00:00,10.20.0.70,198.51.100.141,analyst_20,endpoint-050,Failed Login,Occasional incorrect password; subsequent normal activity,high,4,7,199591,728365,16,6,4,7,normal
+2026-09-02T21:05:00+00:00,10.20.1.71,10.40.5.71,analyst_21,endpoint-051,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,1,9,38268428,1446831,1006,4,1,35,anomaly
+2026-09-02T21:10:00+00:00,10.20.2.72,10.40.6.72,analyst_22,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,381523,362337,70,5,0,3,normal
+2026-09-02T21:15:00+00:00,10.20.3.73,10.40.7.73,analyst_23,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,328785,318324,59,4,1,6,normal
+2026-09-02T21:20:00+00:00,10.20.4.74,198.51.100.145,analyst_24,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,270358,5164699,62,5,1,2,normal
+2026-09-02T21:25:00+00:00,10.20.5.75,10.40.1.75,analyst_25,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,458562,304439,78,1,0,6,normal
+2026-09-02T21:30:00+00:00,10.20.6.76,10.40.2.76,analyst_26,endpoint-056,XSS,WAF script tag and XSS pattern in request,medium,1,11,359463,15089236,844,5,1,6,anomaly
+2026-09-02T21:35:00+00:00,10.20.7.77,10.40.3.77,analyst_27,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,7,292991,842543,29,1,2,6,normal
+2026-09-02T21:40:00+00:00,10.20.8.78,198.51.100.149,analyst_28,endpoint-058,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,376936,757259,15,7,0,8,normal
+2026-09-02T21:45:00+00:00,10.20.9.79,10.40.5.79,analyst_29,endpoint-059,Ransomware,File encryption burst and ransom note indicator,medium,2,7,33654132,819476,535,6,1,3,anomaly
+2026-09-02T21:50:00+00:00,10.20.10.80,10.40.6.80,analyst_30,endpoint-060,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,168926,557107,46,4,2,7,normal
+2026-09-02T21:55:00+00:00,10.20.11.81,10.40.7.81,analyst_31,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,750523,732532,35,4,1,2,normal
+2026-09-02T22:00:00+00:00,10.20.0.82,198.51.100.153,analyst_32,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,7,164349,600668,73,6,1,6,normal
+2026-09-02T22:05:00+00:00,10.20.1.83,10.40.1.83,analyst_33,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,149199,282260,88,4,0,7,normal
+2026-09-02T22:10:00+00:00,10.20.2.84,10.40.2.84,analyst_34,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,309326,910595,65,1,0,4,normal
+2026-09-02T22:15:00+00:00,10.20.3.85,10.40.3.85,analyst_35,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,0,4,408769,1449224,5,5,1,1,normal
+2026-09-02T22:20:00+00:00,10.20.4.86,198.51.100.157,analyst_36,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,824289,256452,31,3,1,4,normal
+2026-09-02T22:25:00+00:00,10.20.5.87,10.40.5.87,analyst_37,endpoint-067,Insider Threat,Employee bulk export outside approved work schedule,medium,3,8,92146655,1121798,575,2,1,3,anomaly
+2026-09-02T22:30:00+00:00,10.20.6.88,10.40.6.88,analyst_38,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,119072,906383,5,4,1,3,normal
+2026-09-02T22:35:00+00:00,10.20.7.89,10.40.7.89,analyst_39,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,343533,1132509,45,3,2,2,normal
+2026-09-02T22:40:00+00:00,10.20.8.90,198.51.100.161,analyst_00,endpoint-000,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,196956,933726,42,6,0,6,normal
+2026-09-02T22:45:00+00:00,10.20.9.91,10.40.1.91,analyst_01,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,100675,393804,50,6,0,2,normal
+2026-09-02T22:50:00+00:00,10.20.10.92,10.40.2.92,analyst_02,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,515604,984918,46,5,3,8,normal
+2026-09-02T22:55:00+00:00,10.20.11.93,10.40.3.93,analyst_03,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,136319,577551,32,1,1,1,normal
+2026-09-02T23:00:00+00:00,10.20.0.94,198.51.100.165,analyst_04,endpoint-004,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,0,4,15276045,861561,940,6,2,25,anomaly
+2026-09-02T23:05:00+00:00,10.20.1.95,10.40.5.95,analyst_05,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,4,110300,321303,55,2,1,6,normal
+2026-09-02T23:10:00+00:00,10.20.2.96,10.40.6.96,analyst_06,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,365922,445809,70,1,1,1,normal
+2026-09-02T23:15:00+00:00,10.20.3.97,10.40.7.97,analyst_07,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,369462,433730,66,2,0,4,normal
+2026-09-02T23:20:00+00:00,10.20.4.98,198.51.100.169,analyst_08,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,754362,1983331,37,2,1,4,normal
+2026-09-02T23:25:00+00:00,10.20.5.99,10.40.1.99,analyst_09,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,231778,246650,57,2,1,1,normal
+2026-09-02T23:30:00+00:00,10.20.6.100,10.40.2.100,analyst_10,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,1,4,163079,1211384,35,1,1,5,normal
+2026-09-02T23:35:00+00:00,10.20.7.101,10.40.3.101,analyst_11,endpoint-011,Failed Login,Occasional incorrect password; subsequent normal activity,medium,4,9,124798,649419,74,3,4,4,normal
+2026-09-02T23:40:00+00:00,10.20.8.102,198.51.100.173,analyst_12,endpoint-012,Phishing,Suspicious email followed by anomalous sign-in activity,medium,2,100,340100,1676798,59,2,26,5,anomaly
+2026-09-02T23:45:00+00:00,10.20.9.103,10.40.5.103,analyst_13,endpoint-013,Command Injection,Application shell metacharacter warning and unexpected child process,medium,1,3,25303746,1038693,561,5,1,5,anomaly
+2026-09-02T23:50:00+00:00,10.20.10.104,10.40.6.104,analyst_14,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,1,463465,644921,83,7,1,1,normal
+2026-09-02T23:55:00+00:00,10.20.11.105,10.40.7.105,analyst_15,endpoint-015,Failed Login,Occasional incorrect password; subsequent normal activity,high,2,2,159852,1065030,41,5,2,1,normal
+2026-09-03T00:00:00+00:00,10.20.0.106,198.51.100.177,analyst_16,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,3,387921,352879,33,4,1,5,normal
+2026-09-03T00:05:00+00:00,10.20.1.107,10.40.1.107,analyst_17,endpoint-017,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,1,138639,578511,65,5,7,6,normal
+2026-09-03T00:10:00+00:00,10.20.2.108,10.40.2.108,analyst_18,endpoint-018,Insider Threat,Employee bulk export outside approved work schedule,medium,0,4,83024011,146428,497,5,0,8,anomaly
+2026-09-03T00:15:00+00:00,10.20.3.109,10.40.3.109,analyst_19,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,397265,1819056,45,3,0,1,normal
+2026-09-03T00:20:00+00:00,10.20.4.110,198.51.100.181,analyst_20,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,1,1,90143,388212,30,4,0,2,normal
+2026-09-03T00:25:00+00:00,10.20.5.111,10.40.5.111,analyst_21,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,553176,1450574,36,5,2,6,normal
+2026-09-03T00:30:00+00:00,10.20.6.112,10.40.6.112,analyst_22,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,156619,822633,9,1,1,5,normal
+2026-09-03T00:35:00+00:00,10.20.7.113,10.40.7.113,analyst_23,endpoint-023,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,0,116,129436,1357516,5,1,0,35,anomaly
+2026-09-03T00:40:00+00:00,10.20.8.114,198.51.100.185,analyst_24,endpoint-024,XSS,WAF script tag and XSS pattern in request,medium,1,9,161749,12823067,520,2,2,6,anomaly
+2026-09-03T00:45:00+00:00,10.20.9.115,10.40.1.115,analyst_25,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,1,11,403814,516279,26,3,0,4,normal
+2026-09-03T00:50:00+00:00,10.20.10.116,10.40.2.116,analyst_26,endpoint-026,Ransomware,File encryption burst and ransom note indicator,medium,0,11,58507754,1882432,513,6,1,1,anomaly
+2026-09-03T00:55:00+00:00,10.20.11.117,10.40.3.117,analyst_27,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,242631,1122435,43,3,0,3,normal
+2026-09-03T01:00:00+00:00,10.20.0.118,198.51.100.189,analyst_28,endpoint-028,Port Scan,Connection attempts across many ports and destinations,medium,0,4,131498,455640,453,662,0,67,anomaly
+2026-09-03T01:05:00+00:00,10.20.1.119,10.40.5.119,analyst_29,endpoint-029,Failed Login,Occasional incorrect password; subsequent normal activity,medium,4,1,414163,629740,6,7,4,3,normal
+2026-09-03T01:10:00+00:00,10.20.2.120,10.40.6.120,analyst_30,endpoint-030,RDP Login,RDP login from new source with unusual target fan-out,high,1,98,652062,1179458,20,5,23,22,anomaly
+2026-09-03T01:15:00+00:00,10.20.3.121,10.40.7.121,analyst_31,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,103406,651318,8,4,0,5,normal
+2026-09-03T01:20:00+00:00,10.20.4.122,198.51.100.193,analyst_32,endpoint-032,Failed Login,Occasional incorrect password; subsequent normal activity,medium,4,2,284376,849923,8,6,4,3,normal
+2026-09-03T01:25:00+00:00,10.20.5.123,10.40.1.123,analyst_33,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,320234,552463,21,3,1,2,normal
+2026-09-03T01:30:00+00:00,10.20.6.124,10.40.2.124,analyst_34,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,88514,867394,32,1,4,4,normal
+2026-09-03T01:35:00+00:00,10.20.7.125,10.40.3.125,analyst_35,endpoint-035,Data Exfiltration,Large outbound transfer to external destination,high,1,11,1364901897,529278,66,6,0,39,anomaly
+2026-09-03T01:40:00+00:00,10.20.8.126,198.51.100.197,analyst_36,endpoint-036,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,0,11,31295762,904295,1253,5,0,42,anomaly
+2026-09-03T01:45:00+00:00,10.20.9.127,10.40.5.127,analyst_37,endpoint-037,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,926409,1292588,85,6,2,3,normal
+2026-09-03T01:50:00+00:00,10.20.10.128,10.40.6.128,analyst_38,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,560235,260011,69,6,0,2,normal
+2026-09-03T01:55:00+00:00,10.20.11.129,10.40.7.129,analyst_39,endpoint-039,Phishing,Suspicious email followed by anomalous sign-in activity,medium,2,80,127218,935494,37,3,37,8,anomaly
+2026-09-03T02:00:00+00:00,10.20.0.130,198.51.100.1,analyst_00,endpoint-040,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,258820,1124005,11,7,0,7,normal
+2026-09-03T02:05:00+00:00,10.20.1.131,10.40.1.131,analyst_01,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,253413,376380,34,1,0,5,normal
+2026-09-03T02:10:00+00:00,10.20.2.132,10.40.2.132,analyst_02,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,2,90155,691959,27,6,0,4,normal
+2026-09-03T02:15:00+00:00,10.20.3.133,10.40.3.133,analyst_03,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,304934,1304258,66,5,1,7,normal
+2026-09-03T02:20:00+00:00,10.20.4.134,198.51.100.5,analyst_04,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,497772,1432199,77,3,0,6,normal
+2026-09-03T02:25:00+00:00,10.20.5.135,10.40.5.135,analyst_05,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,1,8,445284,1036805,40,6,1,7,normal
+2026-09-03T02:30:00+00:00,10.20.6.136,10.40.6.136,analyst_06,endpoint-046,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,2,10,12549952,536621,348,5,0,7,anomaly
+2026-09-03T02:35:00+00:00,10.20.7.137,10.40.7.137,analyst_07,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,10,389713,1375666,6,3,0,4,normal
+2026-09-03T02:40:00+00:00,10.20.8.138,198.51.100.9,analyst_08,endpoint-048,Malware,Unsigned executable with unusual outbound connections,medium,0,11,35255273,995669,240,5,0,25,anomaly
+2026-09-03T02:45:00+00:00,10.20.9.139,10.40.1.139,analyst_09,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,325232,359722,64,2,1,2,normal
+2026-09-03T02:50:00+00:00,10.20.10.140,10.40.2.140,analyst_10,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,0,5,334018,425055,43,4,2,4,normal
+2026-09-03T02:55:00+00:00,10.20.11.141,10.40.3.141,analyst_11,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,472129,538985,31,1,1,1,normal
+2026-09-03T03:00:00+00:00,10.20.0.142,198.51.100.13,analyst_12,endpoint-052,Malware,Unsigned executable with unusual outbound connections,medium,0,9,36454663,2910900,256,4,0,32,anomaly
+2026-09-03T03:05:00+00:00,10.20.1.143,10.40.5.143,analyst_13,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,304859,436185,55,2,1,3,normal
+2026-09-03T03:10:00+00:00,10.20.2.144,10.40.6.144,analyst_14,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,1041823,861624,89,4,1,8,normal
+2026-09-03T03:15:00+00:00,10.20.3.145,10.40.7.145,analyst_15,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,2,11,439314,1748918,7,3,0,7,normal
+2026-09-03T03:20:00+00:00,10.20.4.146,198.51.100.17,analyst_16,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,546120,1281440,48,6,0,1,normal
+2026-09-03T03:25:00+00:00,10.20.5.147,10.40.1.147,analyst_17,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,238981,1618720,18,6,2,2,normal
+2026-09-03T03:30:00+00:00,10.20.6.148,10.40.2.148,analyst_18,endpoint-058,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,163908,466813,10,1,1,8,normal
+2026-09-03T03:35:00+00:00,10.20.7.149,10.40.3.149,analyst_19,endpoint-059,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,1,2,29930087,1044800,307,2,0,6,anomaly
+2026-09-03T03:40:00+00:00,10.20.8.150,198.51.100.21,analyst_20,endpoint-060,Normal Login,Authorized interactive login and ordinary service traffic,high,0,2,414747,989276,32,6,1,8,normal
+2026-09-03T03:45:00+00:00,10.20.9.151,10.40.5.151,analyst_21,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,231367,522111,56,7,0,8,normal
+2026-09-03T03:50:00+00:00,10.20.10.152,10.40.6.152,analyst_22,endpoint-062,Data Exfiltration,Large outbound transfer to external destination,medium,0,8,250361582,977262,49,5,1,24,anomaly
+2026-09-03T03:55:00+00:00,10.20.11.153,10.40.7.153,analyst_23,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,234557,609845,70,7,0,6,normal
+2026-09-03T04:00:00+00:00,10.20.0.154,198.51.100.25,analyst_24,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,289244,2947845,76,3,1,8,normal
+2026-09-03T04:05:00+00:00,10.20.1.155,10.40.1.155,analyst_25,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,291928,772463,77,2,1,4,normal
+2026-09-03T04:10:00+00:00,10.20.2.156,10.40.2.156,analyst_26,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,200792,684874,79,6,1,6,normal
+2026-09-03T04:15:00+00:00,10.20.3.157,10.40.3.157,analyst_27,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,607142,1697884,22,7,0,4,normal
+2026-09-03T04:20:00+00:00,10.20.4.158,198.51.100.29,analyst_28,endpoint-068,RDP Login,RDP login from new source with unusual target fan-out,medium,0,83,635804,319754,29,2,28,18,anomaly
+2026-09-03T04:25:00+00:00,10.20.5.159,10.40.5.159,analyst_29,endpoint-069,Data Exfiltration,Large outbound transfer to external destination,medium,1,2,1213195997,1730975,21,6,1,23,anomaly
+2026-09-03T04:30:00+00:00,10.20.6.160,10.40.6.160,analyst_30,endpoint-000,RDP Login,RDP login from new source with unusual target fan-out,high,2,71,93793,822405,56,1,21,28,anomaly
+2026-09-03T04:35:00+00:00,10.20.7.161,10.40.7.161,analyst_31,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,549377,277032,70,5,1,8,normal
+2026-09-03T04:40:00+00:00,10.20.8.162,198.51.100.33,analyst_32,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,118219,717889,29,7,0,5,normal
+2026-09-03T04:45:00+00:00,10.20.9.163,10.40.1.163,analyst_33,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,444112,3565598,58,1,0,8,normal
+2026-09-03T04:50:00+00:00,10.20.10.164,10.40.2.164,analyst_34,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,138257,519945,67,2,1,7,normal
+2026-09-03T04:55:00+00:00,10.20.11.165,10.40.3.165,analyst_35,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,1,109323,1293757,5,1,3,4,normal
+2026-09-03T05:00:00+00:00,10.20.0.166,198.51.100.37,analyst_36,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,215388,457839,67,6,2,5,normal
+2026-09-03T05:05:00+00:00,10.20.1.167,10.40.5.167,analyst_37,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,416457,1158661,53,1,1,6,normal
+2026-09-03T05:10:00+00:00,10.20.2.168,10.40.6.168,analyst_38,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,393984,2105209,88,4,0,3,normal
+2026-09-03T05:15:00+00:00,10.20.3.169,10.40.7.169,analyst_39,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,192550,960270,45,5,0,3,normal
+2026-09-03T05:20:00+00:00,10.20.4.170,198.51.100.41,analyst_00,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,134404,1246561,83,5,1,2,normal
+2026-09-03T05:25:00+00:00,10.20.5.171,10.40.1.171,analyst_01,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,159161,424718,28,3,1,8,normal
+2026-09-03T05:30:00+00:00,10.20.6.172,10.40.2.172,analyst_02,endpoint-012,Brute Force,Repeated authentication failures followed by a success,medium,65,215,299974,545548,59,3,98,6,anomaly
+2026-09-03T05:35:00+00:00,10.20.7.173,10.40.3.173,analyst_03,endpoint-013,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,10,155518,845943,14,1,3,6,normal
+2026-09-03T05:40:00+00:00,10.20.8.174,198.51.100.45,analyst_04,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,313460,1047102,9,3,1,7,normal
+2026-09-03T05:45:00+00:00,10.20.9.175,10.40.5.175,analyst_05,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,0,7,190159,620237,88,7,0,6,normal
+2026-09-03T05:50:00+00:00,10.20.10.176,10.40.6.176,analyst_06,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,364777,1222240,65,7,1,7,normal
+2026-09-03T05:55:00+00:00,10.20.11.177,10.40.7.177,analyst_07,endpoint-017,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,276558,695238,15,1,0,8,normal
+2026-09-03T06:00:00+00:00,10.20.0.178,198.51.100.49,analyst_08,endpoint-018,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,268302,1016770,63,6,2,6,normal
+2026-09-03T06:05:00+00:00,10.20.1.179,10.40.1.179,analyst_09,endpoint-019,Data Exfiltration,Large outbound transfer to external destination,medium,0,7,852514525,1192460,88,5,1,24,anomaly
+2026-09-03T06:10:00+00:00,10.20.2.180,10.40.2.180,analyst_10,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,0,9,373686,727439,54,6,0,1,normal
+2026-09-03T06:15:00+00:00,10.20.3.181,10.40.3.181,analyst_11,endpoint-021,Command Injection,Application shell metacharacter warning and unexpected child process,medium,2,1,13097265,336672,437,2,0,6,anomaly
+2026-09-03T06:20:00+00:00,10.20.4.182,198.51.100.53,analyst_12,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,542893,366451,75,7,1,7,normal
+2026-09-03T06:25:00+00:00,10.20.5.183,10.40.5.183,analyst_13,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,7,231062,1049061,57,3,1,8,normal
+2026-09-03T06:30:00+00:00,10.20.6.184,10.40.6.184,analyst_14,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,597953,406099,75,7,1,1,normal
+2026-09-03T06:35:00+00:00,10.20.7.185,10.40.7.185,analyst_15,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,133850,841340,80,6,0,6,normal
+2026-09-03T06:40:00+00:00,10.20.8.186,198.51.100.57,analyst_16,endpoint-026,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,216872,506083,28,6,0,8,normal
+2026-09-03T06:45:00+00:00,10.20.9.187,10.40.1.187,analyst_17,endpoint-027,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,2,1,8093939,355140,195,1,3,6,anomaly
+2026-09-03T06:50:00+00:00,10.20.10.188,10.40.2.188,analyst_18,endpoint-028,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,3,118,228289,822845,37,2,1,34,anomaly
+2026-09-03T06:55:00+00:00,10.20.11.189,10.40.3.189,analyst_19,endpoint-029,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,507518,1047068,9,3,1,6,normal
+2026-09-03T07:00:00+00:00,10.20.0.190,198.51.100.61,analyst_20,endpoint-030,Ransomware,File encryption burst and ransom note indicator,high,0,11,41080881,2164287,891,6,2,6,anomaly
+2026-09-03T07:05:00+00:00,10.20.1.191,10.40.5.191,analyst_21,endpoint-031,Command Injection,Application shell metacharacter warning and unexpected child process,medium,0,5,34888154,616868,541,3,0,6,anomaly
+2026-09-03T07:10:00+00:00,10.20.2.192,10.40.6.192,analyst_22,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,146154,286234,78,6,2,8,normal
+2026-09-03T07:15:00+00:00,10.20.3.193,10.40.7.193,analyst_23,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,2,198916,810008,14,5,2,5,normal
+2026-09-03T07:20:00+00:00,10.20.4.194,198.51.100.65,analyst_24,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,229280,990967,56,5,2,5,normal
+2026-09-03T07:25:00+00:00,10.20.5.195,10.40.1.195,analyst_25,endpoint-035,Privilege Escalation,Unexpected admin privilege change with new privileged session,high,0,92,202326,651287,567,5,1,6,anomaly
+2026-09-03T07:30:00+00:00,10.20.6.196,10.40.2.196,analyst_26,endpoint-036,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,757084,629808,22,4,2,6,normal
+2026-09-03T07:35:00+00:00,10.20.7.197,10.40.3.197,analyst_27,endpoint-037,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,141824,2616436,18,3,2,5,normal
+2026-09-03T07:40:00+00:00,10.20.8.198,198.51.100.69,analyst_28,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,191335,541623,60,7,1,7,normal
+2026-09-03T07:45:00+00:00,10.20.9.199,10.40.5.199,analyst_29,endpoint-039,Brute Force,Repeated authentication failures followed by a success,medium,138,210,133657,934220,37,5,162,5,anomaly
+2026-09-03T07:50:00+00:00,10.20.10.200,10.40.6.200,analyst_30,endpoint-040,Failed Login,Occasional incorrect password; subsequent normal activity,high,3,3,305500,4285335,76,7,3,8,normal
+2026-09-03T07:55:00+00:00,10.20.11.201,10.40.7.201,analyst_31,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,322374,890016,74,4,0,5,normal
+2026-09-03T08:00:00+00:00,10.20.0.202,198.51.100.73,analyst_32,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,87004,566230,59,5,2,3,normal
+2026-09-03T08:05:00+00:00,10.20.1.203,10.40.1.203,analyst_33,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,198456,240862,59,4,0,2,normal
+2026-09-03T08:10:00+00:00,10.20.2.204,10.40.2.204,analyst_34,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,384391,1682860,56,7,0,3,normal
+2026-09-03T08:15:00+00:00,10.20.3.205,10.40.3.205,analyst_35,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,0,6,81531,303856,71,3,0,1,normal
+2026-09-03T08:20:00+00:00,10.20.4.206,198.51.100.77,analyst_36,endpoint-046,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,0,9,474617,9578500,614,6,1,5,anomaly
+2026-09-03T08:25:00+00:00,10.20.5.207,10.40.5.207,analyst_37,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,341070,547322,76,2,0,7,normal
+2026-09-03T08:30:00+00:00,10.20.6.208,10.40.6.208,analyst_38,endpoint-048,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,103,654217,752954,303,4,1,6,anomaly
+2026-09-03T08:35:00+00:00,10.20.7.209,10.40.7.209,analyst_39,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,260421,900682,49,4,3,5,normal
+2026-09-03T08:40:00+00:00,10.20.8.210,198.51.100.81,analyst_00,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,701832,1142118,5,3,0,5,normal
+2026-09-03T08:45:00+00:00,10.20.9.211,10.40.1.211,analyst_01,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,2,133786,1040092,89,5,0,2,normal
+2026-09-03T08:50:00+00:00,10.20.10.212,10.40.2.212,analyst_02,endpoint-052,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,1,7,38564046,325730,1112,2,1,46,anomaly
+2026-09-03T08:55:00+00:00,10.20.11.213,10.40.3.213,analyst_03,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,173265,417829,50,3,1,2,normal
+2026-09-03T09:00:00+00:00,10.20.0.214,198.51.100.85,analyst_04,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,189498,962374,22,5,1,4,normal
+2026-09-03T09:05:00+00:00,10.20.1.215,10.40.5.215,analyst_05,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,265068,705897,88,4,0,8,normal
+2026-09-03T09:10:00+00:00,10.20.2.216,10.40.6.216,analyst_06,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,192005,567977,34,5,1,4,normal
+2026-09-03T09:15:00+00:00,10.20.3.217,10.40.7.217,analyst_07,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,74072,1472018,62,2,1,7,normal
+2026-09-03T09:20:00+00:00,10.20.4.218,198.51.100.89,analyst_08,endpoint-058,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,323786,2054203,57,3,1,5,normal
+2026-09-03T09:25:00+00:00,10.20.5.219,10.40.1.219,analyst_09,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,444838,1619221,59,1,3,1,normal
+2026-09-03T09:30:00+00:00,10.20.6.220,10.40.2.220,analyst_10,endpoint-060,Normal Login,Authorized interactive login and ordinary service traffic,high,1,5,498571,1764894,48,4,0,5,normal
+2026-09-03T09:35:00+00:00,10.20.7.221,10.40.3.221,analyst_11,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,168633,275986,57,5,3,8,normal
+2026-09-03T09:40:00+00:00,10.20.8.222,198.51.100.93,analyst_12,endpoint-062,Ransomware,File encryption burst and ransom note indicator,medium,0,8,40561614,350949,820,1,0,4,anomaly
+2026-09-03T09:45:00+00:00,10.20.9.223,10.40.5.223,analyst_13,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,9,234236,1340612,13,7,0,6,normal
+2026-09-03T09:50:00+00:00,10.20.10.224,10.40.6.224,analyst_14,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,399203,2443302,27,1,0,8,normal
+2026-09-03T09:55:00+00:00,10.20.11.225,10.40.7.225,analyst_15,endpoint-065,Port Scan,Connection attempts across many ports and destinations,high,2,11,662903,1068696,1396,571,0,156,anomaly
+2026-09-03T10:00:00+00:00,10.20.0.226,198.51.100.97,analyst_16,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,263354,2462690,38,3,1,3,normal
+2026-09-03T10:05:00+00:00,10.20.1.227,10.40.1.227,analyst_17,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,643513,920053,77,3,0,1,normal
+2026-09-03T10:10:00+00:00,10.20.2.228,10.40.2.228,analyst_18,endpoint-068,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,1,2,21634529,1081380,1612,2,0,48,anomaly
+2026-09-03T10:15:00+00:00,10.20.3.229,10.40.3.229,analyst_19,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,114041,432721,55,1,1,4,normal
+2026-09-03T10:20:00+00:00,10.20.4.230,198.51.100.101,analyst_20,endpoint-000,Credential Access,LSASS access credential dump alert with unusual process lineage,high,0,60,160291,687845,64,5,0,23,anomaly
+2026-09-03T10:25:00+00:00,10.20.5.231,10.40.5.231,analyst_21,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,281310,1199229,61,1,0,6,normal
+2026-09-03T10:30:00+00:00,10.20.6.232,10.40.6.232,analyst_22,endpoint-002,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,9,506245,246432,7,6,2,1,normal
+2026-09-03T10:35:00+00:00,10.20.7.233,10.40.7.233,analyst_23,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,82051,1063844,87,1,0,6,normal
+2026-09-03T10:40:00+00:00,10.20.8.234,198.51.100.105,analyst_24,endpoint-004,Command Injection,Application shell metacharacter warning and unexpected child process,medium,1,7,19192845,617841,371,7,1,8,anomaly
+2026-09-03T10:45:00+00:00,10.20.9.235,10.40.1.235,analyst_25,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,1,6,261090,2174038,37,4,1,4,normal
+2026-09-03T10:50:00+00:00,10.20.10.236,10.40.2.236,analyst_26,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,243342,623592,78,4,1,3,normal
+2026-09-03T10:55:00+00:00,10.20.11.237,10.40.3.237,analyst_27,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,214494,1274249,32,1,0,1,normal
+2026-09-03T11:00:00+00:00,10.20.0.238,198.51.100.109,analyst_28,endpoint-008,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,4,180322,202699,27,2,7,8,normal
+2026-09-03T11:05:00+00:00,10.20.1.239,10.40.5.239,analyst_29,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,100517,932412,71,1,1,6,normal
+2026-09-03T11:10:00+00:00,10.20.2.240,10.40.6.240,analyst_30,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,1,8,349423,115753,70,6,1,8,normal
+2026-09-03T11:15:00+00:00,10.20.3.241,10.40.7.241,analyst_31,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,90722,1274385,48,1,0,3,normal
+2026-09-03T11:20:00+00:00,10.20.4.242,198.51.100.113,analyst_32,endpoint-012,Phishing,Suspicious email followed by anomalous sign-in activity,medium,1,87,98053,1610259,28,7,68,6,anomaly
+2026-09-03T11:25:00+00:00,10.20.5.243,10.40.1.243,analyst_33,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,256121,530491,71,3,2,8,normal
+2026-09-03T11:30:00+00:00,10.20.6.244,10.40.2.244,analyst_34,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,202600,533240,37,6,1,1,normal
+2026-09-03T11:35:00+00:00,10.20.7.245,10.40.3.245,analyst_35,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,1,9,108376,336352,9,6,0,8,normal
+2026-09-03T11:40:00+00:00,10.20.8.246,198.51.100.117,analyst_36,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,399661,727308,45,6,0,8,normal
+2026-09-03T11:45:00+00:00,10.20.9.247,10.40.5.247,analyst_37,endpoint-017,RDP Login,RDP login from new source with unusual target fan-out,medium,1,64,357434,568658,76,5,20,33,anomaly
+2026-09-03T11:50:00+00:00,10.20.10.248,10.40.6.248,analyst_38,endpoint-018,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,256281,1114999,68,7,0,2,normal
+2026-09-03T11:55:00+00:00,10.20.11.249,10.40.7.249,analyst_39,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,121563,430987,64,3,0,4,normal
+2026-09-03T12:00:00+00:00,10.20.0.10,198.51.100.121,analyst_00,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,1,7,51244,3066538,48,2,1,3,normal
+2026-09-03T12:05:00+00:00,10.20.1.11,10.40.1.11,analyst_01,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,125397,401334,74,1,0,1,normal
+2026-09-03T12:10:00+00:00,10.20.2.12,10.40.2.12,analyst_02,endpoint-022,RDP Login,RDP login from new source with unusual target fan-out,medium,2,75,112016,648375,59,2,27,19,anomaly
+2026-09-03T12:15:00+00:00,10.20.3.13,10.40.3.13,analyst_03,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,11,199833,508625,44,4,0,3,normal
+2026-09-03T12:20:00+00:00,10.20.4.14,198.51.100.125,analyst_04,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,11,531259,504493,13,7,0,6,normal
+2026-09-03T12:25:00+00:00,10.20.5.15,10.40.5.15,analyst_05,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,1,1,580272,343225,18,6,0,2,normal
+2026-09-03T12:30:00+00:00,10.20.6.16,10.40.6.16,analyst_06,endpoint-026,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,442867,1489289,74,1,0,4,normal
+2026-09-03T12:35:00+00:00,10.20.7.17,10.40.7.17,analyst_07,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,325993,1859648,38,6,0,7,normal
+2026-09-03T12:40:00+00:00,10.20.8.18,198.51.100.129,analyst_08,endpoint-028,Command Injection,Application shell metacharacter warning and unexpected child process,medium,0,5,22500325,1300730,795,4,1,3,anomaly
+2026-09-03T12:45:00+00:00,10.20.9.19,10.40.1.19,analyst_09,endpoint-029,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,8,430189,601210,84,5,0,4,normal
+2026-09-03T12:50:00+00:00,10.20.10.20,10.40.2.20,analyst_10,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,165217,478812,76,1,2,1,normal
+2026-09-03T12:55:00+00:00,10.20.11.21,10.40.3.21,analyst_11,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,130533,1532513,80,2,1,1,normal
+2026-09-03T13:00:00+00:00,10.20.0.22,198.51.100.133,analyst_12,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,362904,142415,25,3,1,5,normal
+2026-09-03T13:05:00+00:00,10.20.1.23,10.40.5.23,analyst_13,endpoint-033,Port Scan,Connection attempts across many ports and destinations,medium,0,7,118076,2451513,1357,373,0,60,anomaly
+2026-09-03T13:10:00+00:00,10.20.2.24,10.40.6.24,analyst_14,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,126629,825453,44,2,0,4,normal
+2026-09-03T13:15:00+00:00,10.20.3.25,10.40.7.25,analyst_15,endpoint-035,Normal Login,Authorized interactive login and ordinary service traffic,high,0,7,101633,935623,65,1,1,8,normal
+2026-09-03T13:20:00+00:00,10.20.4.26,198.51.100.137,analyst_16,endpoint-036,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,6,334169,698315,47,5,1,8,normal
+2026-09-03T13:25:00+00:00,10.20.5.27,10.40.1.27,analyst_17,endpoint-037,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,10,134391,495516,47,1,2,5,normal
+2026-09-03T13:30:00+00:00,10.20.6.28,10.40.2.28,analyst_18,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,233794,279308,81,3,0,2,normal
+2026-09-03T13:35:00+00:00,10.20.7.29,10.40.3.29,analyst_19,endpoint-039,Failed Login,Occasional incorrect password; subsequent normal activity,medium,3,3,225645,536822,31,7,3,6,normal
+2026-09-03T13:40:00+00:00,10.20.8.30,198.51.100.141,analyst_20,endpoint-040,Command Injection,Application shell metacharacter warning and unexpected child process,high,0,8,14333169,1450823,655,4,2,6,anomaly
+2026-09-03T13:45:00+00:00,10.20.9.31,10.40.5.31,analyst_21,endpoint-041,XSS,WAF script tag and XSS pattern in request,medium,1,2,415106,9866888,489,3,1,2,anomaly
+2026-09-03T13:50:00+00:00,10.20.10.32,10.40.6.32,analyst_22,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,219121,342553,72,4,0,7,normal
+2026-09-03T13:55:00+00:00,10.20.11.33,10.40.7.33,analyst_23,endpoint-043,Credential Access,LSASS access credential dump alert with unusual process lineage,medium,0,93,181536,1789143,5,1,1,39,anomaly
+2026-09-03T14:00:00+00:00,10.20.0.34,198.51.100.145,analyst_24,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,206782,1285844,6,4,1,8,normal
+2026-09-03T14:05:00+00:00,10.20.1.35,10.40.1.35,analyst_25,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,0,4,244606,390681,22,1,1,3,normal
+2026-09-03T14:10:00+00:00,10.20.2.36,10.40.2.36,analyst_26,endpoint-046,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,122005,1065252,6,1,0,4,normal
+2026-09-03T14:15:00+00:00,10.20.3.37,10.40.3.37,analyst_27,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,71891,1142730,42,4,0,5,normal
+2026-09-03T14:20:00+00:00,10.20.4.38,198.51.100.149,analyst_28,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,651608,1519252,31,6,3,4,normal
+2026-09-03T14:25:00+00:00,10.20.5.39,10.40.5.39,analyst_29,endpoint-049,Malware,Unsigned executable with unusual outbound connections,medium,0,3,11914449,433079,271,3,0,43,anomaly
+2026-09-03T14:30:00+00:00,10.20.6.40,10.40.6.40,analyst_30,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,0,6,173594,382927,67,4,1,1,normal
+2026-09-03T14:35:00+00:00,10.20.7.41,10.40.7.41,analyst_31,endpoint-051,Ransomware,File encryption burst and ransom note indicator,medium,0,8,44734504,505662,781,2,2,7,anomaly
+2026-09-03T14:40:00+00:00,10.20.8.42,198.51.100.153,analyst_32,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,518589,314734,62,4,0,1,normal
+2026-09-03T14:45:00+00:00,10.20.9.43,10.40.1.43,analyst_33,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,698395,2860414,64,6,1,7,normal
+2026-09-03T14:50:00+00:00,10.20.10.44,10.40.2.44,analyst_34,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,9,179548,966931,28,7,0,6,normal
+2026-09-03T14:55:00+00:00,10.20.11.45,10.40.3.45,analyst_35,endpoint-055,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,high,1,8,575849,23146287,643,4,1,2,anomaly
+2026-09-03T15:00:00+00:00,10.20.0.46,198.51.100.157,analyst_36,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,515734,822135,83,6,0,8,normal
+2026-09-03T15:05:00+00:00,10.20.1.47,10.40.5.47,analyst_37,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,134426,1745283,69,6,0,7,normal
+2026-09-03T15:10:00+00:00,10.20.2.48,10.40.6.48,analyst_38,endpoint-058,XSS,WAF script tag and XSS pattern in request,medium,1,2,148730,8910496,536,5,0,3,anomaly
+2026-09-03T15:15:00+00:00,10.20.3.49,10.40.7.49,analyst_39,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,483163,466771,13,3,1,3,normal
+2026-09-03T15:20:00+00:00,10.20.4.50,198.51.100.161,analyst_00,endpoint-060,Normal Login,Authorized interactive login and ordinary service traffic,high,0,1,177359,643589,41,7,1,5,normal
+2026-09-03T15:25:00+00:00,10.20.5.51,10.40.1.51,analyst_01,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,866504,601519,7,4,2,2,normal
+2026-09-03T15:30:00+00:00,10.20.6.52,10.40.2.52,analyst_02,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,234560,625472,86,1,1,8,normal
+2026-09-03T15:35:00+00:00,10.20.7.53,10.40.3.53,analyst_03,endpoint-063,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,4,98412,568706,73,2,7,4,normal
+2026-09-03T15:40:00+00:00,10.20.8.54,198.51.100.165,analyst_04,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,765737,683786,79,4,0,3,normal
+2026-09-03T15:45:00+00:00,10.20.9.55,10.40.5.55,analyst_05,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,1,11,136702,818845,63,5,2,5,normal
+2026-09-03T15:50:00+00:00,10.20.10.56,10.40.6.56,analyst_06,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,697227,845261,41,3,3,8,normal
+2026-09-03T15:55:00+00:00,10.20.11.57,10.40.7.57,analyst_07,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,229301,787496,45,1,1,8,normal
+2026-09-03T16:00:00+00:00,10.20.0.58,198.51.100.169,analyst_08,endpoint-068,Port Scan,Connection attempts across many ports and destinations,medium,0,9,433136,385810,1296,573,0,81,anomaly
+2026-09-03T16:05:00+00:00,10.20.1.59,10.40.1.59,analyst_09,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,273282,706585,76,1,0,4,normal
+2026-09-03T16:10:00+00:00,10.20.2.60,10.40.2.60,analyst_10,endpoint-000,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,388544,2028183,51,1,0,4,normal
+2026-09-03T16:15:00+00:00,10.20.3.61,10.40.3.61,analyst_11,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,247693,2468262,20,7,0,3,normal
+2026-09-03T16:20:00+00:00,10.20.4.62,198.51.100.173,analyst_12,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,293416,653947,33,2,0,1,normal
+2026-09-03T16:25:00+00:00,10.20.5.63,10.40.5.63,analyst_13,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,284717,631588,49,5,0,4,normal
+2026-09-03T16:30:00+00:00,10.20.6.64,10.40.6.64,analyst_14,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,254428,361047,24,6,0,4,normal
+2026-09-03T16:35:00+00:00,10.20.7.65,10.40.7.65,analyst_15,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,2,2,267863,419828,55,2,0,6,normal
+2026-09-03T16:40:00+00:00,10.20.8.66,198.51.100.177,analyst_16,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,175151,686287,84,7,0,6,normal
+2026-09-03T16:45:00+00:00,10.20.9.67,10.40.1.67,analyst_17,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,8,233046,791429,16,5,2,4,normal
+2026-09-03T16:50:00+00:00,10.20.10.68,10.40.2.68,analyst_18,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,74337,785059,66,6,1,1,normal
+2026-09-03T16:55:00+00:00,10.20.11.69,10.40.3.69,analyst_19,endpoint-009,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,382656,896268,45,4,1,3,normal
+2026-09-03T17:00:00+00:00,10.20.0.70,198.51.100.181,analyst_20,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,1,5,160788,1054690,17,7,2,3,normal
+2026-09-03T17:05:00+00:00,10.20.1.71,10.40.5.71,analyst_21,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,381429,1618057,70,1,2,1,normal
+2026-09-03T17:10:00+00:00,10.20.2.72,10.40.6.72,analyst_22,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,59428,667436,53,4,0,3,normal
+2026-09-03T17:15:00+00:00,10.20.3.73,10.40.7.73,analyst_23,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,120226,383927,42,2,1,4,normal
+2026-09-03T17:20:00+00:00,10.20.4.74,198.51.100.185,analyst_24,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,456993,608196,11,5,2,4,normal
+2026-09-03T17:25:00+00:00,10.20.5.75,10.40.1.75,analyst_25,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,1,10,207940,742702,38,3,0,3,normal
+2026-09-03T17:30:00+00:00,10.20.6.76,10.40.2.76,analyst_26,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,184994,723787,17,6,2,7,normal
+2026-09-03T17:35:00+00:00,10.20.7.77,10.40.3.77,analyst_27,endpoint-017,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,132375,633236,82,5,1,3,normal
+2026-09-03T17:40:00+00:00,10.20.8.78,198.51.100.189,analyst_28,endpoint-018,Phishing,Suspicious email followed by anomalous sign-in activity,medium,0,96,184431,767176,86,1,28,3,anomaly
+2026-09-03T17:45:00+00:00,10.20.9.79,10.40.5.79,analyst_29,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,185706,895698,42,2,2,7,normal
+2026-09-03T17:50:00+00:00,10.20.10.80,10.40.6.80,analyst_30,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,2,1,680744,1343932,27,5,2,7,normal
+2026-09-03T17:55:00+00:00,10.20.11.81,10.40.7.81,analyst_31,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,412508,660867,8,3,1,8,normal
+2026-09-03T18:00:00+00:00,10.20.0.82,198.51.100.193,analyst_32,endpoint-022,Data Exfiltration,Large outbound transfer to external destination,medium,0,11,569884478,1209076,9,4,0,24,anomaly
+2026-09-03T18:05:00+00:00,10.20.1.83,10.40.1.83,analyst_33,endpoint-023,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,344430,850002,57,1,1,5,normal
+2026-09-03T18:10:00+00:00,10.20.2.84,10.40.2.84,analyst_34,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,9,307275,508952,32,2,1,6,normal
+2026-09-03T18:15:00+00:00,10.20.3.85,10.40.3.85,analyst_35,endpoint-025,Ransomware,File encryption burst and ransom note indicator,high,0,2,55398800,638747,459,3,1,6,anomaly
+2026-09-03T18:20:00+00:00,10.20.4.86,198.51.100.197,analyst_36,endpoint-026,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,369881,1154610,85,6,0,2,normal
+2026-09-03T18:25:00+00:00,10.20.5.87,10.40.5.87,analyst_37,endpoint-027,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,0,2,11953536,483551,180,6,0,6,anomaly
+2026-09-03T18:30:00+00:00,10.20.6.88,10.40.6.88,analyst_38,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,6,554013,620326,7,6,2,1,normal
+2026-09-03T18:35:00+00:00,10.20.7.89,10.40.7.89,analyst_39,endpoint-029,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,229004,505187,57,2,0,4,normal
+2026-09-03T18:40:00+00:00,10.20.8.90,198.51.100.1,analyst_00,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,0,3,140569,720773,59,6,2,6,normal
+2026-09-03T18:45:00+00:00,10.20.9.91,10.40.1.91,analyst_01,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,191247,1151132,23,3,1,8,normal
+2026-09-03T18:50:00+00:00,10.20.10.92,10.40.2.92,analyst_02,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,86407,1373086,16,2,0,3,normal
+2026-09-03T18:55:00+00:00,10.20.11.93,10.40.3.93,analyst_03,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,315964,361940,23,1,1,3,normal
+2026-09-03T19:00:00+00:00,10.20.0.94,198.51.100.5,analyst_04,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,199766,1494484,8,4,1,6,normal
+2026-09-03T19:05:00+00:00,10.20.1.95,10.40.5.95,analyst_05,endpoint-035,RDP Login,RDP login from new source with unusual target fan-out,high,0,98,242654,586174,24,7,46,19,anomaly
+2026-09-03T19:10:00+00:00,10.20.2.96,10.40.6.96,analyst_06,endpoint-036,DNS Tunneling,DNS long label and TXT burst to unfamiliar resolver,medium,0,8,37833113,423154,990,7,0,38,anomaly
+2026-09-03T19:15:00+00:00,10.20.3.97,10.40.7.97,analyst_07,endpoint-037,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,6,170909,325146,32,2,6,2,normal
+2026-09-03T19:20:00+00:00,10.20.4.98,198.51.100.9,analyst_08,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,728527,262359,39,3,1,7,normal
+2026-09-03T19:25:00+00:00,10.20.5.99,10.40.1.99,analyst_09,endpoint-039,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,364281,2572356,75,6,1,4,normal
+2026-09-03T19:30:00+00:00,10.20.6.100,10.40.2.100,analyst_10,endpoint-040,Normal Login,Authorized interactive login and ordinary service traffic,high,1,9,590153,1134039,8,5,0,6,normal
+2026-09-03T19:35:00+00:00,10.20.7.101,10.40.3.101,analyst_11,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,7,222707,479779,23,2,0,5,normal
+2026-09-03T19:40:00+00:00,10.20.8.102,198.51.100.13,analyst_12,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,117539,2490011,40,6,1,6,normal
+2026-09-03T19:45:00+00:00,10.20.9.103,10.40.5.103,analyst_13,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,8,746641,781530,27,5,1,3,normal
+2026-09-03T19:50:00+00:00,10.20.10.104,10.40.6.104,analyst_14,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,207232,377362,83,6,2,6,normal
+2026-09-03T19:55:00+00:00,10.20.11.105,10.40.7.105,analyst_15,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,238243,380713,7,4,0,8,normal
+2026-09-03T20:00:00+00:00,10.20.0.106,198.51.100.17,analyst_16,endpoint-046,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,164788,313164,33,2,1,6,normal
+2026-09-03T20:05:00+00:00,10.20.1.107,10.40.1.107,analyst_17,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,179721,2809692,73,4,1,6,normal
+2026-09-03T20:10:00+00:00,10.20.2.108,10.40.2.108,analyst_18,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,225503,1199633,79,2,4,4,normal
+2026-09-03T20:15:00+00:00,10.20.3.109,10.40.3.109,analyst_19,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,250192,400892,73,1,0,5,normal
+2026-09-03T20:20:00+00:00,10.20.4.110,198.51.100.21,analyst_20,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,0,1,263129,540023,26,4,3,8,normal
+2026-09-03T20:25:00+00:00,10.20.5.111,10.40.5.111,analyst_21,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,10,106176,691215,5,7,1,1,normal
+2026-09-03T20:30:00+00:00,10.20.6.112,10.40.6.112,analyst_22,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,299091,575013,83,7,0,4,normal
+2026-09-03T20:35:00+00:00,10.20.7.113,10.40.7.113,analyst_23,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,379153,775462,49,1,0,1,normal
+2026-09-03T20:40:00+00:00,10.20.8.114,198.51.100.25,analyst_24,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,7,507958,2749065,11,2,2,5,normal
+2026-09-03T20:45:00+00:00,10.20.9.115,10.40.1.115,analyst_25,endpoint-055,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,high,0,3,31633011,1100067,215,5,0,7,anomaly
+2026-09-03T20:50:00+00:00,10.20.10.116,10.40.2.116,analyst_26,endpoint-056,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,2,10,18425329,315652,254,7,0,3,anomaly
+2026-09-03T20:55:00+00:00,10.20.11.117,10.40.3.117,analyst_27,endpoint-057,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,58,117314,1320923,279,3,0,1,anomaly
+2026-09-03T21:00:00+00:00,10.20.0.118,198.51.100.29,analyst_28,endpoint-058,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,391264,630381,42,2,0,1,normal
+2026-09-03T21:05:00+00:00,10.20.1.119,10.40.5.119,analyst_29,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,237563,1538237,80,6,1,1,normal
+2026-09-03T21:10:00+00:00,10.20.2.120,10.40.6.120,analyst_30,endpoint-060,Normal Login,Authorized interactive login and ordinary service traffic,high,1,8,256621,368670,38,4,0,4,normal
+2026-09-03T21:15:00+00:00,10.20.3.121,10.40.7.121,analyst_31,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,156393,1091481,26,6,1,8,normal
+2026-09-03T21:20:00+00:00,10.20.4.122,198.51.100.33,analyst_32,endpoint-062,Ransomware,File encryption burst and ransom note indicator,medium,2,7,21412815,1258312,754,4,2,8,anomaly
+2026-09-03T21:25:00+00:00,10.20.5.123,10.40.1.123,analyst_33,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,563754,319753,71,1,0,7,normal
+2026-09-03T21:30:00+00:00,10.20.6.124,10.40.2.124,analyst_34,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,211504,492835,86,5,1,4,normal
+2026-09-03T21:35:00+00:00,10.20.7.125,10.40.3.125,analyst_35,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,2,2,157079,564645,55,7,0,4,normal
+2026-09-03T21:40:00+00:00,10.20.8.126,198.51.100.37,analyst_36,endpoint-066,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,8,173414,1018546,59,1,7,8,normal
+2026-09-03T21:45:00+00:00,10.20.9.127,10.40.5.127,analyst_37,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,737124,1495928,44,7,1,4,normal
+2026-09-03T21:50:00+00:00,10.20.10.128,10.40.6.128,analyst_38,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,157596,711962,31,4,1,2,normal
+2026-09-03T21:55:00+00:00,10.20.11.129,10.40.7.129,analyst_39,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,290737,2061250,65,6,1,7,normal
+2026-09-03T22:00:00+00:00,10.20.0.130,198.51.100.41,analyst_00,endpoint-000,Credential Access,LSASS access credential dump alert with unusual process lineage,high,2,65,577549,239524,52,6,4,24,anomaly
+2026-09-03T22:05:00+00:00,10.20.1.131,10.40.1.131,analyst_01,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,124567,1304310,53,1,1,4,normal
+2026-09-03T22:10:00+00:00,10.20.2.132,10.40.2.132,analyst_02,endpoint-002,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,6,247836,1267471,6,2,2,6,normal
+2026-09-03T22:15:00+00:00,10.20.3.133,10.40.3.133,analyst_03,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,101069,451849,54,3,0,7,normal
+2026-09-03T22:20:00+00:00,10.20.4.134,198.51.100.45,analyst_04,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,94105,648860,89,2,0,3,normal
+2026-09-03T22:25:00+00:00,10.20.5.135,10.40.5.135,analyst_05,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,265967,524380,10,4,2,4,normal
+2026-09-03T22:30:00+00:00,10.20.6.136,10.40.6.136,analyst_06,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,384770,828361,50,7,1,5,normal
+2026-09-03T22:35:00+00:00,10.20.7.137,10.40.7.137,analyst_07,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,217886,2402930,53,4,2,5,normal
+2026-09-03T22:40:00+00:00,10.20.8.138,198.51.100.49,analyst_08,endpoint-008,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,64,469249,347872,426,2,0,3,anomaly
+2026-09-03T22:45:00+00:00,10.20.9.139,10.40.1.139,analyst_09,endpoint-009,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,0,72,264251,1168746,591,1,0,2,anomaly
+2026-09-03T22:50:00+00:00,10.20.10.140,10.40.2.140,analyst_10,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,1,3,789204,1448010,59,3,2,5,normal
+2026-09-03T22:55:00+00:00,10.20.11.141,10.40.3.141,analyst_11,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,160638,1210729,13,3,2,6,normal
+2026-09-03T23:00:00+00:00,10.20.0.142,198.51.100.53,analyst_12,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,277664,1505675,57,4,1,3,normal
+2026-09-03T23:05:00+00:00,10.20.1.143,10.40.5.143,analyst_13,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,198723,445518,38,7,1,7,normal
+2026-09-03T23:10:00+00:00,10.20.2.144,10.40.6.144,analyst_14,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,10,230401,513752,18,1,0,3,normal
+2026-09-03T23:15:00+00:00,10.20.3.145,10.40.7.145,analyst_15,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,1,7,399951,565007,34,1,0,7,normal
+2026-09-03T23:20:00+00:00,10.20.4.146,198.51.100.57,analyst_16,endpoint-016,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,1,8,304932,25172913,429,6,1,6,anomaly
+2026-09-03T23:25:00+00:00,10.20.5.147,10.40.1.147,analyst_17,endpoint-017,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,2,134701,1534435,20,3,0,2,normal
+2026-09-03T23:30:00+00:00,10.20.6.148,10.40.2.148,analyst_18,endpoint-018,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,10,272840,383084,59,5,7,5,normal
+2026-09-03T23:35:00+00:00,10.20.7.149,10.40.3.149,analyst_19,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,234707,1127675,61,3,1,5,normal
+2026-09-03T23:40:00+00:00,10.20.8.150,198.51.100.61,analyst_20,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,216548,612217,38,1,1,4,normal
+2026-09-03T23:45:00+00:00,10.20.9.151,10.40.5.151,analyst_21,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,10,312577,328736,78,5,0,3,normal
+2026-09-03T23:50:00+00:00,10.20.10.152,10.40.6.152,analyst_22,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,186488,2294343,38,4,1,3,normal
+2026-09-03T23:55:00+00:00,10.20.11.153,10.40.7.153,analyst_23,endpoint-023,XSS,WAF script tag and XSS pattern in request,medium,0,7,501585,20624239,818,4,1,3,anomaly
+2026-09-04T00:00:00+00:00,10.20.0.154,198.51.100.65,analyst_24,endpoint-024,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,1,277260,615102,16,4,1,3,normal
+2026-09-04T00:05:00+00:00,10.20.1.155,10.40.1.155,analyst_25,endpoint-025,Port Scan,Connection attempts across many ports and destinations,high,0,8,106902,2581728,1024,167,0,54,anomaly
+2026-09-04T00:10:00+00:00,10.20.2.156,10.40.2.156,analyst_26,endpoint-026,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,1,69,316993,751724,383,5,0,1,anomaly
+2026-09-04T00:15:00+00:00,10.20.3.157,10.40.3.157,analyst_27,endpoint-027,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,282478,920565,35,6,0,2,normal
+2026-09-04T00:20:00+00:00,10.20.4.158,198.51.100.69,analyst_28,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,172208,571602,82,7,0,1,normal
+2026-09-04T00:25:00+00:00,10.20.5.159,10.40.5.159,analyst_29,endpoint-029,Malware,Unsigned executable with unusual outbound connections,medium,0,10,43502670,556332,306,2,0,30,anomaly
+2026-09-04T00:30:00+00:00,10.20.6.160,10.40.6.160,analyst_30,endpoint-030,Normal Login,Authorized interactive login and ordinary service traffic,high,0,6,253762,573294,35,2,0,1,normal
+2026-09-04T00:35:00+00:00,10.20.7.161,10.40.7.161,analyst_31,endpoint-031,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,202790,387186,15,7,0,3,normal
+2026-09-04T00:40:00+00:00,10.20.8.162,198.51.100.73,analyst_32,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,95008,633219,67,4,0,4,normal
+2026-09-04T00:45:00+00:00,10.20.9.163,10.40.1.163,analyst_33,endpoint-033,Command Injection,Application shell metacharacter warning and unexpected child process,medium,2,4,33985002,715765,360,2,0,5,anomaly
+2026-09-04T00:50:00+00:00,10.20.10.164,10.40.2.164,analyst_34,endpoint-034,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,198179,1608233,22,6,1,1,normal
+2026-09-04T00:55:00+00:00,10.20.11.165,10.40.3.165,analyst_35,endpoint-035,Normal Login,Authorized interactive login and ordinary service traffic,high,1,2,731349,667782,79,2,0,1,normal
+2026-09-04T01:00:00+00:00,10.20.0.166,198.51.100.77,analyst_36,endpoint-036,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,123877,1091801,47,5,0,8,normal
+2026-09-04T01:05:00+00:00,10.20.1.167,10.40.5.167,analyst_37,endpoint-037,Privilege Escalation,Unexpected admin privilege change with new privileged session,medium,2,119,136013,754802,285,7,0,1,anomaly
+2026-09-04T01:10:00+00:00,10.20.2.168,10.40.6.168,analyst_38,endpoint-038,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,129995,845180,24,6,1,7,normal
+2026-09-04T01:15:00+00:00,10.20.3.169,10.40.7.169,analyst_39,endpoint-039,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,175612,1203046,60,4,0,2,normal
+2026-09-04T01:20:00+00:00,10.20.4.170,198.51.100.81,analyst_00,endpoint-040,Normal Login,Authorized interactive login and ordinary service traffic,high,0,2,101054,1087232,56,4,1,6,normal
+2026-09-04T01:25:00+00:00,10.20.5.171,10.40.1.171,analyst_01,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,137502,602701,53,5,0,8,normal
+2026-09-04T01:30:00+00:00,10.20.6.172,10.40.2.172,analyst_02,endpoint-042,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,1,191399,2193268,20,3,6,2,normal
+2026-09-04T01:35:00+00:00,10.20.7.173,10.40.3.173,analyst_03,endpoint-043,Brute Force,Repeated authentication failures followed by a success,medium,167,144,306561,461725,42,2,110,3,anomaly
+2026-09-04T01:40:00+00:00,10.20.8.174,198.51.100.85,analyst_04,endpoint-044,Ransomware,File encryption burst and ransom note indicator,medium,1,2,26429157,561933,660,3,0,3,anomaly
+2026-09-04T01:45:00+00:00,10.20.9.175,10.40.5.175,analyst_05,endpoint-045,Normal Login,Authorized interactive login and ordinary service traffic,high,0,3,156642,672022,85,5,0,6,normal
+2026-09-04T01:50:00+00:00,10.20.10.176,10.40.6.176,analyst_06,endpoint-046,Failed Login,Occasional incorrect password; subsequent normal activity,medium,4,6,181690,797904,61,4,4,6,normal
+2026-09-04T01:55:00+00:00,10.20.11.177,10.40.7.177,analyst_07,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,52263,387239,62,6,1,2,normal
+2026-09-04T02:00:00+00:00,10.20.0.178,198.51.100.89,analyst_08,endpoint-048,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,185031,410769,45,6,1,4,normal
+2026-09-04T02:05:00+00:00,10.20.1.179,10.40.1.179,analyst_09,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,221001,1921144,50,3,1,3,normal
+2026-09-04T02:10:00+00:00,10.20.2.180,10.40.2.180,analyst_10,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,0,3,362304,709411,65,3,0,6,normal
+2026-09-04T02:15:00+00:00,10.20.3.181,10.40.3.181,analyst_11,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,196918,1139455,26,3,2,1,normal
+2026-09-04T02:20:00+00:00,10.20.4.182,198.51.100.93,analyst_12,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,130541,887238,22,5,2,4,normal
+2026-09-04T02:25:00+00:00,10.20.5.183,10.40.5.183,analyst_13,endpoint-053,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,509551,784972,31,7,1,6,normal
+2026-09-04T02:30:00+00:00,10.20.6.184,10.40.6.184,analyst_14,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,3,106069,456125,26,7,1,1,normal
+2026-09-04T02:35:00+00:00,10.20.7.185,10.40.7.185,analyst_15,endpoint-055,Normal Login,Authorized interactive login and ordinary service traffic,high,0,2,208164,770560,84,1,3,2,normal
+2026-09-04T02:40:00+00:00,10.20.8.186,198.51.100.97,analyst_16,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,104689,759998,83,7,1,6,normal
+2026-09-04T02:45:00+00:00,10.20.9.187,10.40.1.187,analyst_17,endpoint-057,Command Injection,Application shell metacharacter warning and unexpected child process,medium,0,1,25007925,1169480,422,6,1,1,anomaly
+2026-09-04T02:50:00+00:00,10.20.10.188,10.40.2.188,analyst_18,endpoint-058,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,1306258,675012,83,6,2,6,normal
+2026-09-04T02:55:00+00:00,10.20.11.189,10.40.3.189,analyst_19,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,4,422604,258424,13,7,1,4,normal
+2026-09-04T03:00:00+00:00,10.20.0.190,198.51.100.101,analyst_20,endpoint-060,Insider Threat,Employee bulk export outside approved work schedule,high,2,10,104194479,918281,562,6,2,3,anomaly
+2026-09-04T03:05:00+00:00,10.20.1.191,10.40.5.191,analyst_21,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,546183,2061426,85,6,0,3,normal
+2026-09-04T03:10:00+00:00,10.20.2.192,10.40.6.192,analyst_22,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,259582,496640,34,1,2,4,normal
+2026-09-04T03:15:00+00:00,10.20.3.193,10.40.7.193,analyst_23,endpoint-063,XSS,WAF script tag and XSS pattern in request,medium,0,10,466718,17774414,401,5,0,6,anomaly
+2026-09-04T03:20:00+00:00,10.20.4.194,198.51.100.105,analyst_24,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,95783,651902,66,7,0,5,normal
+2026-09-04T03:25:00+00:00,10.20.5.195,10.40.1.195,analyst_25,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,1,8,299703,729226,88,3,2,4,normal
+2026-09-04T03:30:00+00:00,10.20.6.196,10.40.2.196,analyst_26,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,401846,888085,22,6,1,4,normal
+2026-09-04T03:35:00+00:00,10.20.7.197,10.40.3.197,analyst_27,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,506175,1218439,64,7,0,5,normal
+2026-09-04T03:40:00+00:00,10.20.8.198,198.51.100.109,analyst_28,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,225237,870343,50,7,0,7,normal
+2026-09-04T03:45:00+00:00,10.20.9.199,10.40.5.199,analyst_29,endpoint-069,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,11,432532,703154,27,2,7,5,normal
+2026-09-04T03:50:00+00:00,10.20.10.200,10.40.6.200,analyst_30,endpoint-000,Insider Threat,Employee bulk export outside approved work schedule,high,0,8,82699836,1481363,309,5,0,3,anomaly
+2026-09-04T03:55:00+00:00,10.20.11.201,10.40.7.201,analyst_31,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,157018,244097,39,3,0,5,normal
+2026-09-04T04:00:00+00:00,10.20.0.202,198.51.100.113,analyst_32,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,290857,893492,54,7,1,5,normal
+2026-09-04T04:05:00+00:00,10.20.1.203,10.40.1.203,analyst_33,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,98541,145091,20,3,0,6,normal
+2026-09-04T04:10:00+00:00,10.20.2.204,10.40.2.204,analyst_34,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,184254,1059779,25,1,2,5,normal
+2026-09-04T04:15:00+00:00,10.20.3.205,10.40.3.205,analyst_35,endpoint-005,Normal Login,Authorized interactive login and ordinary service traffic,high,0,7,312652,1082181,78,6,0,7,normal
+2026-09-04T04:20:00+00:00,10.20.4.206,198.51.100.117,analyst_36,endpoint-006,Phishing,Suspicious email followed by anomalous sign-in activity,medium,0,68,135283,623239,27,6,40,6,anomaly
+2026-09-04T04:25:00+00:00,10.20.5.207,10.40.5.207,analyst_37,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,1,212079,1319105,74,1,0,4,normal
+2026-09-04T04:30:00+00:00,10.20.6.208,10.40.6.208,analyst_38,endpoint-008,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,362990,1315231,48,5,2,8,normal
+2026-09-04T04:35:00+00:00,10.20.7.209,10.40.7.209,analyst_39,endpoint-009,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,7,149538,640494,74,2,2,8,normal
+2026-09-04T04:40:00+00:00,10.20.8.210,198.51.100.121,analyst_00,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,0,10,338620,148791,43,4,0,6,normal
+2026-09-04T04:45:00+00:00,10.20.9.211,10.40.1.211,analyst_01,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,216292,754301,29,1,1,3,normal
+2026-09-04T04:50:00+00:00,10.20.10.212,10.40.2.212,analyst_02,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,83119,1665791,62,7,1,4,normal
+2026-09-04T04:55:00+00:00,10.20.11.213,10.40.3.213,analyst_03,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,3,482947,870630,22,3,1,3,normal
+2026-09-04T05:00:00+00:00,10.20.0.214,198.51.100.125,analyst_04,endpoint-014,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,5,99777,1402079,6,4,0,7,normal
+2026-09-04T05:05:00+00:00,10.20.1.215,10.40.5.215,analyst_05,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,1,5,735779,797122,8,3,0,8,normal
+2026-09-04T05:10:00+00:00,10.20.2.216,10.40.6.216,analyst_06,endpoint-016,SQL Injection,WAF SQL syntax anomaly and SQLi pattern in request,medium,1,3,161586,29408622,822,5,1,3,anomaly
+2026-09-04T05:15:00+00:00,10.20.3.217,10.40.7.217,analyst_07,endpoint-017,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,medium,0,1,25730855,469429,236,2,1,1,anomaly
+2026-09-04T05:20:00+00:00,10.20.4.218,198.51.100.129,analyst_08,endpoint-018,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,193125,589399,84,3,0,5,normal
+2026-09-04T05:25:00+00:00,10.20.5.219,10.40.1.219,analyst_09,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,189826,942016,39,6,0,2,normal
+2026-09-04T05:30:00+00:00,10.20.6.220,10.40.2.220,analyst_10,endpoint-020,Normal Login,Authorized interactive login and ordinary service traffic,high,1,11,506588,192667,42,3,0,3,normal
+2026-09-04T05:35:00+00:00,10.20.7.221,10.40.3.221,analyst_11,endpoint-021,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,239947,772329,65,1,1,1,normal
+2026-09-04T05:40:00+00:00,10.20.8.222,198.51.100.133,analyst_12,endpoint-022,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,4,278859,482648,8,5,2,8,normal
+2026-09-04T05:45:00+00:00,10.20.9.223,10.40.5.223,analyst_13,endpoint-023,Failed Login,Occasional incorrect password; subsequent normal activity,medium,2,6,160058,1471760,29,2,2,7,normal
+2026-09-04T05:50:00+00:00,10.20.10.224,10.40.6.224,analyst_14,endpoint-024,RDP Login,RDP login from new source with unusual target fan-out,medium,0,92,1679152,350230,47,3,40,28,anomaly
+2026-09-04T05:55:00+00:00,10.20.11.225,10.40.7.225,analyst_15,endpoint-025,Normal Login,Authorized interactive login and ordinary service traffic,high,0,8,334148,745887,76,1,1,1,normal
+2026-09-04T06:00:00+00:00,10.20.0.226,198.51.100.137,analyst_16,endpoint-026,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,8,183126,384674,67,5,0,6,normal
+2026-09-04T06:05:00+00:00,10.20.1.227,10.40.1.227,analyst_17,endpoint-027,Phishing,Suspicious email followed by anomalous sign-in activity,medium,0,68,492681,584885,45,5,65,6,anomaly
+2026-09-04T06:10:00+00:00,10.20.2.228,10.40.2.228,analyst_18,endpoint-028,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,120875,558870,78,3,0,6,normal
+2026-09-04T06:15:00+00:00,10.20.3.229,10.40.3.229,analyst_19,endpoint-029,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,7,531666,1670532,6,4,0,8,normal
+2026-09-04T06:20:00+00:00,10.20.4.230,198.51.100.141,analyst_20,endpoint-030,Brute Force,Repeated authentication failures followed by a success,high,170,109,337595,210450,83,7,99,7,anomaly
+2026-09-04T06:25:00+00:00,10.20.5.231,10.40.5.231,analyst_21,endpoint-031,Ransomware,File encryption burst and ransom note indicator,medium,1,10,37615072,2146608,775,1,0,2,anomaly
+2026-09-04T06:30:00+00:00,10.20.6.232,10.40.6.232,analyst_22,endpoint-032,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,169543,1166056,63,6,0,1,normal
+2026-09-04T06:35:00+00:00,10.20.7.233,10.40.7.233,analyst_23,endpoint-033,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,352701,346636,23,1,0,5,normal
+2026-09-04T06:40:00+00:00,10.20.8.234,198.51.100.145,analyst_24,endpoint-034,Command Injection,Application shell metacharacter warning and unexpected child process,medium,0,1,17174098,215182,790,1,1,3,anomaly
+2026-09-04T06:45:00+00:00,10.20.9.235,10.40.1.235,analyst_25,endpoint-035,Normal Login,Authorized interactive login and ordinary service traffic,high,2,4,137057,553533,80,6,0,6,normal
+2026-09-04T06:50:00+00:00,10.20.10.236,10.40.2.236,analyst_26,endpoint-036,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,102059,945614,13,3,2,3,normal
+2026-09-04T06:55:00+00:00,10.20.11.237,10.40.3.237,analyst_27,endpoint-037,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,1122400,399877,77,3,0,6,normal
+2026-09-04T07:00:00+00:00,10.20.0.238,198.51.100.149,analyst_28,endpoint-038,Malware,Unsigned executable with unusual outbound connections,medium,0,8,33997878,691967,299,6,2,23,anomaly
+2026-09-04T07:05:00+00:00,10.20.1.239,10.40.5.239,analyst_29,endpoint-039,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,10,490369,370328,76,5,3,3,normal
+2026-09-04T07:10:00+00:00,10.20.2.240,10.40.6.240,analyst_30,endpoint-040,Phishing,Suspicious email followed by anomalous sign-in activity,high,0,117,434563,733087,47,4,69,6,anomaly
+2026-09-04T07:15:00+00:00,10.20.3.241,10.40.7.241,analyst_31,endpoint-041,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,7,304455,1095290,6,5,1,4,normal
+2026-09-04T07:20:00+00:00,10.20.4.242,198.51.100.153,analyst_32,endpoint-042,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,10,321348,1993363,23,1,0,5,normal
+2026-09-04T07:25:00+00:00,10.20.5.243,10.40.1.243,analyst_33,endpoint-043,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,9,241607,1248626,54,2,1,4,normal
+2026-09-04T07:30:00+00:00,10.20.6.244,10.40.2.244,analyst_34,endpoint-044,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,287576,1154514,33,7,1,6,normal
+2026-09-04T07:35:00+00:00,10.20.7.245,10.40.3.245,analyst_35,endpoint-045,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,high,1,5,34787536,170940,292,4,1,2,anomaly
+2026-09-04T07:40:00+00:00,10.20.8.246,198.51.100.157,analyst_36,endpoint-046,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,98873,1183418,40,7,0,6,normal
+2026-09-04T07:45:00+00:00,10.20.9.247,10.40.5.247,analyst_37,endpoint-047,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,8,155537,901783,37,6,3,1,normal
+2026-09-04T07:50:00+00:00,10.20.10.248,10.40.6.248,analyst_38,endpoint-048,Failed Login,Occasional incorrect password; subsequent normal activity,medium,5,7,116174,781076,13,5,5,2,normal
+2026-09-04T07:55:00+00:00,10.20.11.249,10.40.7.249,analyst_39,endpoint-049,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,1,173222,802445,15,2,0,8,normal
+2026-09-04T08:00:00+00:00,10.20.0.10,198.51.100.161,analyst_00,endpoint-050,Normal Login,Authorized interactive login and ordinary service traffic,high,0,11,382862,552971,24,1,0,4,normal
+2026-09-04T08:05:00+00:00,10.20.1.11,10.40.1.11,analyst_01,endpoint-051,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,100136,540072,88,5,0,5,normal
+2026-09-04T08:10:00+00:00,10.20.2.12,10.40.2.12,analyst_02,endpoint-052,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,6,192494,546776,74,5,0,4,normal
+2026-09-04T08:15:00+00:00,10.20.3.13,10.40.3.13,analyst_03,endpoint-053,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,9,213319,3033424,10,4,7,1,normal
+2026-09-04T08:20:00+00:00,10.20.4.14,198.51.100.165,analyst_04,endpoint-054,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,378821,1171364,67,2,2,4,normal
+2026-09-04T08:25:00+00:00,10.20.5.15,10.40.5.15,analyst_05,endpoint-055,XSS,WAF script tag and XSS pattern in request,high,0,1,88003,20702847,517,5,0,6,anomaly
+2026-09-04T08:30:00+00:00,10.20.6.16,10.40.6.16,analyst_06,endpoint-056,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,474132,470013,72,3,0,3,normal
+2026-09-04T08:35:00+00:00,10.20.7.17,10.40.7.17,analyst_07,endpoint-057,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,8,152013,226324,80,2,1,4,normal
+2026-09-04T08:40:00+00:00,10.20.8.18,198.51.100.169,analyst_08,endpoint-058,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,156367,567171,83,7,2,1,normal
+2026-09-04T08:45:00+00:00,10.20.9.19,10.40.1.19,analyst_09,endpoint-059,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,222883,315072,18,2,0,3,normal
+2026-09-04T08:50:00+00:00,10.20.10.20,10.40.2.20,analyst_10,endpoint-060,Insider Threat,Employee bulk export outside approved work schedule,high,0,4,129581491,2346941,568,2,0,2,anomaly
+2026-09-04T08:55:00+00:00,10.20.11.21,10.40.3.21,analyst_11,endpoint-061,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,2,296809,1251116,49,7,3,7,normal
+2026-09-04T09:00:00+00:00,10.20.0.22,198.51.100.173,analyst_12,endpoint-062,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,3,217624,1210307,21,2,0,8,normal
+2026-09-04T09:05:00+00:00,10.20.1.23,10.40.5.23,analyst_13,endpoint-063,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,360494,2249492,18,3,2,2,normal
+2026-09-04T09:10:00+00:00,10.20.2.24,10.40.6.24,analyst_14,endpoint-064,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,6,276035,809998,25,5,1,7,normal
+2026-09-04T09:15:00+00:00,10.20.3.25,10.40.7.25,analyst_15,endpoint-065,Normal Login,Authorized interactive login and ordinary service traffic,high,1,3,194732,882833,14,7,0,6,normal
+2026-09-04T09:20:00+00:00,10.20.4.26,198.51.100.177,analyst_16,endpoint-066,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,5,179253,3036817,8,1,2,6,normal
+2026-09-04T09:25:00+00:00,10.20.5.27,10.40.1.27,analyst_17,endpoint-067,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,503579,601317,32,1,1,6,normal
+2026-09-04T09:30:00+00:00,10.20.6.28,10.40.2.28,analyst_18,endpoint-068,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,88324,1048810,62,3,2,2,normal
+2026-09-04T09:35:00+00:00,10.20.7.29,10.40.3.29,analyst_19,endpoint-069,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,618984,487797,66,6,1,7,normal
+2026-09-04T09:40:00+00:00,10.20.8.30,198.51.100.181,analyst_20,endpoint-000,Normal Login,Authorized interactive login and ordinary service traffic,high,0,9,351049,1489898,14,7,0,4,normal
+2026-09-04T09:45:00+00:00,10.20.9.31,10.40.5.31,analyst_21,endpoint-001,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,2,335982,920433,17,2,0,5,normal
+2026-09-04T09:50:00+00:00,10.20.10.32,10.40.6.32,analyst_22,endpoint-002,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,650279,592345,32,4,1,8,normal
+2026-09-04T09:55:00+00:00,10.20.11.33,10.40.7.33,analyst_23,endpoint-003,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,1,470012,1547185,46,2,0,4,normal
+2026-09-04T10:00:00+00:00,10.20.0.34,198.51.100.185,analyst_24,endpoint-004,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,5,200909,869156,73,6,2,5,normal
+2026-09-04T10:05:00+00:00,10.20.1.35,10.40.1.35,analyst_25,endpoint-005,PowerShell Abuse,Unusual PowerShell encoded invocation with child process,high,0,9,34480304,433673,254,3,0,7,anomaly
+2026-09-04T10:10:00+00:00,10.20.2.36,10.40.2.36,analyst_26,endpoint-006,Normal Login,Authorized interactive login and ordinary service traffic,medium,3,11,646046,1277659,78,4,0,3,normal
+2026-09-04T10:15:00+00:00,10.20.3.37,10.40.3.37,analyst_27,endpoint-007,Normal Login,Authorized interactive login and ordinary service traffic,medium,1,11,567000,1203972,77,6,1,5,normal
+2026-09-04T10:20:00+00:00,10.20.4.38,198.51.100.189,analyst_28,endpoint-008,Failed Login,Occasional incorrect password; subsequent normal activity,medium,7,6,233424,1580723,58,2,7,4,normal
+2026-09-04T10:25:00+00:00,10.20.5.39,10.40.5.39,analyst_29,endpoint-009,Data Exfiltration,Large outbound transfer to external destination,medium,0,9,769849234,1254555,26,1,0,32,anomaly
+2026-09-04T10:30:00+00:00,10.20.6.40,10.40.6.40,analyst_30,endpoint-010,Normal Login,Authorized interactive login and ordinary service traffic,high,0,10,176176,797749,62,1,1,3,normal
+2026-09-04T10:35:00+00:00,10.20.7.41,10.40.7.41,analyst_31,endpoint-011,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,7,235759,262439,44,4,1,6,normal
+2026-09-04T10:40:00+00:00,10.20.8.42,198.51.100.193,analyst_32,endpoint-012,Normal Login,Authorized interactive login and ordinary service traffic,medium,2,4,147371,1293238,7,4,2,5,normal
+2026-09-04T10:45:00+00:00,10.20.9.43,10.40.1.43,analyst_33,endpoint-013,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,422300,570241,8,6,1,8,normal
+2026-09-04T10:50:00+00:00,10.20.10.44,10.40.2.44,analyst_34,endpoint-014,Failed Login,Occasional incorrect password; subsequent normal activity,medium,6,8,160703,474140,73,1,6,6,normal
+2026-09-04T10:55:00+00:00,10.20.11.45,10.40.3.45,analyst_35,endpoint-015,Normal Login,Authorized interactive login and ordinary service traffic,high,0,7,358473,407491,36,1,0,4,normal
+2026-09-04T11:00:00+00:00,10.20.0.46,198.51.100.197,analyst_36,endpoint-016,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,9,458240,1099207,83,3,1,3,normal
+2026-09-04T11:05:00+00:00,10.20.1.47,10.40.5.47,analyst_37,endpoint-017,Command Injection,Application shell metacharacter warning and unexpected child process,medium,0,7,26040193,1217544,612,7,2,5,anomaly
+2026-09-04T11:10:00+00:00,10.20.2.48,10.40.6.48,analyst_38,endpoint-018,Insider Threat,Employee bulk export outside approved work schedule,medium,1,9,113219404,708604,568,7,1,4,anomaly
+2026-09-04T11:15:00+00:00,10.20.3.49,10.40.7.49,analyst_39,endpoint-019,Normal Login,Authorized interactive login and ordinary service traffic,medium,0,11,238250,385715,31,1,0,4,normal

@@ -1,0 +1,14 @@
+services:
+  cybersentinel:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    environment:
+      LLM_PROVIDER: local
+      EMBEDDING_BACKEND: hashing
+      STATE_DIR: /app/state
+    volumes:
+      - cyber_state:/app/state
+    restart: unless-stopped
+volumes:
+  cyber_state:

@@ -1,0 +1,13 @@
+# Runnable offline installation without PyTorch or downloaded embedding models.
+streamlit>=1.55,<2
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.6,<2
+faiss-cpu>=1.10,<2
+plotly>=6,<8
+pydantic>=2.10,<3
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+reportlab>=4.3,<5
+Pillow>=11,<13
+Authlib>=1.3,<2

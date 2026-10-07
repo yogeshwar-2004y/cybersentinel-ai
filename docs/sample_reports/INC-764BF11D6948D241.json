@@ -1,0 +1,227 @@
+{
+  "incident_id": "INC-764BF11D6948D241",
+  "event_id": "EVT-596F7FAA4201B4A9",
+  "timestamp": "2026-09-01T02:00:00+00:00",
+  "generated_at": "2026-10-07T18:56:38.717039+00:00",
+  "status": "Open",
+  "evidence": {
+    "timestamp": "2026-09-01T02:00:00+00:00",
+    "source_ip": "10.20.0.34",
+    "destination_ip": "198.51.100.25",
+    "user": "analyst_24",
+    "host": "endpoint-024",
+    "event_type": "Brute Force",
+    "message": "Repeated authentication failures followed by a success",
+    "asset_criticality": "medium",
+    "failed_attempts": 127.0,
+    "login_frequency": 111.0,
+    "bytes_sent": 198478.0,
+    "bytes_received": 2780911.0,
+    "request_rate": 68.0,
+    "unique_ports": 7.0,
+    "authentication_failures": 88.0,
+    "destination_count": 4.0,
+    "ground_truth": "anomaly",
+    "event_id": "EVT-596F7FAA4201B4A9",
+    "prediction": -1,
+    "anomaly_score": 0.6089257566522382,
+    "decision_function": -0.05800768572341075,
+    "confidence": 0.9765624999999996,
+    "reference_percentile": 0.99625,
+    "model_id": "MODEL-C4BD9AD7BD129775"
+  },
+  "threat_name": "Brute Force",
+  "incident_summary": "Possible brute force on endpoint-024 at 2026-09-01T02:00:00+00:00. Isolation Forest identified an unusual feature pattern; analyst validation is required.",
+  "threat_explanation": "Telemetry is consistent with the brute force triage hypothesis. Authorized administration, testing, or workload changes may produce similar observations.",
+  "attack_chain": [
+    "Observed: Repeated authentication failures followed by a success",
+    "Hypothesis: Credential Access activity; not independently confirmed.",
+    "Next: correlate endpoint, identity, and network records to establish sequence."
+  ],
+  "mitre_mapping": [
+    {
+      "id": "T1110",
+      "name": "Brute Force",
+      "rationale": "Candidate mapping for Brute Force; validate with additional telemetry.",
+      "source_id": "mitre/brute_force.md#chunk-0"
+    }
+  ],
+  "severity": "High",
+  "confidence": 0.65,
+  "risk_score": 70,
+  "business_impact": "Potential service disruption, account misuse, or data exposure. Actual impact and scope are unconfirmed; verify asset role and data classification.",
+  "technical_explanation": "Model MODEL-C4BD9AD7BD129775 used eight numeric features with log1p scaling. Anomaly score 0.6089; decision function -0.0580. The candidate threat derives from numerical thresholds and message indicators, not dataset labels.",
+  "recommended_mitigation": [
+    "Review account lockout and sign-in policy.",
+    "Enable phishing-resistant MFA.",
+    "Rate-limit authentication after verifying legitimate traffic."
+  ],
+  "citations": [
+    "mitre/brute_force.md#chunk-0"
+  ],
+  "uncertainties": [
+    "An anomaly alone does not prove malicious intent.",
+    "No endpoint process tree, packet capture, or corroborating identity timeline was supplied.",
+    "Attack chain stages are hypotheses requiring independent evidence."
+  ],
+  "recommended_actions": [
+    "Review account lockout and sign-in policy.",
+    "Enable phishing-resistant MFA.",
+    "Rate-limit authentication after verifying legitimate traffic."
+  ],
+  "playbook": [
+    {
+      "phase": "Triage",
+      "action": "Confirm anomaly, asset owner, scope, and change window.",
+      "owner": "SOC analyst",
+      "approval_required": false,
+      "validation": "Document whether activity was authorized and record corroborating sources."
+    },
+    {
+      "phase": "Preserve",
+      "action": "Collect relevant logs and forensic artifacts with hashes and timestamps.",
+      "owner": "Incident responder",
+      "approval_required": false,
+      "validation": "Evidence manifest and chain of custody are complete."
+    },
+    {
+      "phase": "Contain",
+      "action": "Review account lockout and sign-in policy. Approve any account, host, or network restriction before execution.",
+      "owner": "Incident commander",
+      "approval_required": true,
+      "validation": "Containment scope is approved and business impact assessed."
+    },
+    {
+      "phase": "Eradicate",
+      "action": "Rate-limit authentication after verifying legitimate traffic.",
+      "owner": "Platform owner",
+      "approval_required": true,
+      "validation": "Root cause has been addressed and telemetry reviewed."
+    },
+    {
+      "phase": "Recover",
+      "action": "Restore validated services, check integrity, and monitor for recurrence.",
+      "owner": "Service owner",
+      "approval_required": true,
+      "validation": "Service tests pass and recovery is approved."
+    },
+    {
+      "phase": "Learn",
+      "action": "Record lessons, update detection logic, and review response timing.",
+      "owner": "SOC lead",
+      "approval_required": false,
+      "validation": "Review is recorded with accountable owners."
+    }
+  ],
+  "soc_checklist": [
+    "Validate event time and collection source.",
+    "Confirm business authorization.",
+    "Preserve raw logs and evidence hashes.",
+    "Assess asset criticality and affected identities.",
+    "Document containment approval.",
+    "Assign investigation owner and escalation deadline."
+  ],
+  "next_investigation_steps": [
+    "Search surrounding 30 minutes for the same host, user, and source.",
+    "Correlate endpoint process ancestry and identity session records.",
+    "Check related hosts and destinations against authorized workflows.",
+    "Confirm candidate MITRE mapping with independent evidence."
+  ],
+  "recovery": [
+    "Verify clean backups and known-good configurations.",
+    "Restore in stages with the service owner; monitor health and indicators.",
+    "Rotate exposed credentials after approved containment when exposure is established."
+  ],
+  "provenance": {
+    "analysis_provider": "local",
+    "requested_provider": "local",
+    "fallback_reason": "",
+    "retrieval_mode": "sentence_transformer / faiss",
+    "kb_fingerprint": "aa8c954cff09c6a1375ebccfdd5a2e6935c129bc2088452875b0c45465a19e9a",
+    "model_id": "MODEL-C4BD9AD7BD129775",
+    "pipeline_version": "1.0.0",
+    "confidence_definition": "Uncalibrated analyst heuristic; not a probability.",
+    "risk_definition": "Heuristic prioritization on 0-100 scale; not measured business loss."
+  },
+  "sources": [
+    {
+      "source_id": "mitre/brute_force.md#chunk-0",
+      "title": "Brute Force",
+      "path": "mitre/brute_force.md",
+      "text": "# Brute Force\n\n## Attack overview\nRepeated guessing or reuse of credentials can create bursts of unsuccessful authentication. A successful sign-in after failures increases investigative priority but does not prove account takeover.\n\n## Indicators\nHigh failed-attempt counts, multiple targeted accounts, new source networks, and sign-in success after failure bursts.\n\n## Detection\nAggregate identity events by source and account; compare with ordinary retry behavior and check distributed attempts. Validate timestamps and distinguish service misconfiguration from deliberate guessing.\n\n## Mitigation\nUse MFA, password hygiene, measured rate limits, and lockout policies that avoid easy denial of service. Review exposed accounts and preserve authentication records.\n\n## MITRE ID\nT1110\n\n## References\n- https://attack.mitre.org/techniques/T1110/\n\n## Source note\nOriginal educational summary authored for CyberSentinel AI, 2026-10-07. References are guidance, not live threat feeds. Candidate mappings require analyst validation.",
+      "mitre_ids": [
+        "T1110"
+      ],
+      "score": 0.63103
+    },
+    {
+      "source_id": "mitre/credential_dumping.md#chunk-0",
+      "title": "OS Credential Dumping",
+      "path": "mitre/credential_dumping.md",
+      "text": "# OS Credential Dumping\n\n## Attack overview\nAttackers may obtain credential material from operating system components to support later access. Process access alerts require context about signed tools and administrative tasks.\n\n## Indicators\nUnexpected access to protected authentication processes, suspicious dump files, and subsequent privileged sign-ins.\n\n## Detection\nCorrelate endpoint process ancestry, protection events, and credential use; verify which account material was accessible.\n\n## Mitigation\nHarden credential storage, limit local administrators, enable credential protection, and rotate confirmed exposed secrets after approved containment.\n\n## MITRE ID\nT1003\n\n## References\n- https://attack.mitre.org/techniques/T1003/\n\n## Source note\nOriginal educational summary authored for CyberSentinel AI, 2026-10-07. References are guidance, not live threat feeds. Candidate mappings require analyst validation.",
+      "mitre_ids": [
+        "T1003"
+      ],
+      "score": 0.50336
+    },
+    {
+      "source_id": "mitre/valid_accounts.md#chunk-0",
+      "title": "Valid Accounts",
+      "path": "mitre/valid_accounts.md",
+      "text": "# Valid Accounts\n\n## Attack overview\nAn attacker can reuse legitimate credentials to access services. Successful login records must be evaluated in behavioral and authorization context.\n\n## Indicators\nNew devices, unexpected geography, changed session patterns, unfamiliar privileged actions, and impossible concurrent activity.\n\n## Detection\nCorrelate MFA results, device posture, source networks, session lineage, and normal access patterns. Consider VPN and travel effects.\n\n## Mitigation\nUse phishing-resistant MFA, short-lived privileges, conditional access, credential hygiene, and reviewed session revocation.\n\n## MITRE ID\nT1078\n\n## References\n- https://attack.mitre.org/techniques/T1078/\n\n## Source note\nOriginal educational summary authored for CyberSentinel AI, 2026-10-07. References are guidance, not live threat feeds. Candidate mappings require analyst validation.",
+      "mitre_ids": [
+        "T1078"
+      ],
+      "score": 0.4972
+    },
+    {
+      "source_id": "mitre/rdp.md#chunk-0",
+      "title": "Remote Desktop Protocol",
+      "path": "mitre/rdp.md",
+      "text": "# Remote Desktop Protocol\n\n## Attack overview\nRemote desktop sessions can provide interactive access to other machines. Legitimate support and administration must be distinguished from lateral movement.\n\n## Indicators\nNew source hosts, unusual logon times, privileged sessions, and remote access across multiple endpoints.\n\n## Detection\nCorrelate destination logon records, gateway events, VPN sessions, and identity telemetry. Check session ownership and authorized support tickets.\n\n## Mitigation\nUse approved gateways, MFA, network restrictions, least privilege, and centralized remote-session auditing.\n\n## MITRE ID\nT1021.001\n\n## References\n- https://attack.mitre.org/techniques/T1021/001/\n\n## Source note\nOriginal educational summary authored for CyberSentinel AI, 2026-10-07. References are guidance, not live threat feeds. Candidate mappings require analyst validation.",
+      "mitre_ids": [
+        "T1021",
+        "T1021.001"
+      ],
+      "score": 0.49509
+    },
+    {
+      "source_id": "mitre/defense_evasion.md#chunk-0",
+      "title": "Indicator Removal",
+      "path": "mitre/defense_evasion.md",
+      "text": "# Indicator Removal\n\n## Attack overview\nAttackers may delete or alter artifacts to hinder reconstruction of activity. Log retention failures may produce similar gaps.\n\n## Indicators\nUnexpected log clearing, telemetry outages, missing files, and suspicious administrative actions.\n\n## Detection\nCorrelate collector health, endpoint activity, retention policies, and independent network records. Verify the cause of missing evidence.\n\n## Mitigation\nCentralize immutable audit records, alert on log-clearing actions, protect collector configuration, and investigate privileged access.\n\n## MITRE ID\nT1070\n\n## References\n- https://attack.mitre.org/techniques/T1070/\n\n## Source note\nOriginal educational summary authored for CyberSentinel AI, 2026-10-07. References are guidance, not live threat feeds. Candidate mappings require analyst validation.",
+      "mitre_ids": [
+        "T1070"
+      ],
+      "score": 0.48312
+    }
+  ],
+  "agent_trace": [
+    {
+      "agent": "Detection Agent",
+      "duration_ms": 0.03,
+      "status": "completed"
+    },
+    {
+      "agent": "Threat Intelligence Agent",
+      "duration_ms": 24.17,
+      "status": "completed"
+    },
+    {
+      "agent": "Analysis Agent",
+      "duration_ms": 0.38,
+      "status": "completed"
+    },
+    {
+      "agent": "Response Agent",
+      "duration_ms": 0.08,
+      "status": "completed"
+    },
+    {
+      "agent": "Report Agent",
+      "duration_ms": 0.06,
+      "status": "completed"
+    }
+  ],
+  "revision": 1
+}
