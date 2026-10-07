@@ -5,6 +5,12 @@ A runnable Python security operations application combining Isolation Forest, lo
 
 **Start with no API keys.** The default local analysis engine creates structured explanations and response playbooks deterministically. It is not a local generative LLM. Select Ollama to use a local generative model, or OpenAI/Gemini for hosted analysis. The interface identifies the actual engine and any fallback.
 
+<img width="1908" height="953" alt="image" src="https://github.com/user-attachments/assets/1accb47e-87b2-4be2-b1e2-4a63bae24aff" />
+
+<img width="760" height="621" alt="image" src="https://github.com/user-attachments/assets/37cff15d-3b78-4abb-8c8b-cf700c42921e" />
+
+<img width="398" height="623" alt="image" src="https://github.com/user-attachments/assets/12b00826-1f87-49e2-ac5b-b253166748d9" />
+
 ## What is included
 
 - Five SOC pages: Dashboard, Incident Investigation, Analytics, Reports, Knowledge Search.
